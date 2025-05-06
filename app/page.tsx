@@ -7,7 +7,7 @@ export default function Home() {
     <section>
       <div className="container mx-auto my-20 md:mt-40 mt-5 md:px-0 px-5">
         {/* Platform as a Service (PaaS) for Fintech Innovation */}
-        <section>
+        <section className="mt-40">
           <div className="flex justify-end gap-3 mb-3 md:flex-row flex-col">
             <div className="flex gap-3">
               <div className="w-[22px] h-[43px] gap-[10px] px-[13px] py-[4px] rounded-[7px] bg-[#DCF8EF] shadow-[inset_2px_2px_4px_0px_#BADFDD,inset_-2px_-2px_4px_0px_#FFFFFF]"></div>

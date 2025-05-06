@@ -89,11 +89,9 @@ export default function Hero() {
           />
         </div>
 
-        <Image
+        <img
           src="/hand.png"
           alt="Finiotech Hand"
-          fill
-          priority
           className="object-contain z-2 relative"
         />
       </div>
