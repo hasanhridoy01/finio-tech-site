@@ -16,7 +16,7 @@ export default function Home() {
             </div>
 
             <div className="flex gap-3">
-              <div className="md:w-[152px] w-[130px] h-[43px] gap-[10px] md:px-[18px] px-[12px] py-[4px] rounded-[47px] bg-[#DCF8EF] shadow-[inset_2px_2px_4px_0px_#BADFDD,inset_-2px_-2px_4px_0px_#FFFFFF] flex items-center justify-center">
+              <div className="md:w-[162px] w-[130px] h-[43px] gap-[10px] md:px-[18px] px-[12px] py-[4px] rounded-[47px] bg-[#DCF8EF] shadow-[inset_2px_2px_4px_0px_#BADFDD,inset_-2px_-2px_4px_0px_#FFFFFF] flex items-center justify-center">
                 <h2 className="font-[900] primary-darker uppercase md:text-[14px] text-[12px]">
                   Mobile Wallet
                 </h2>
