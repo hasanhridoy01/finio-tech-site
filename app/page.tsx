@@ -67,10 +67,7 @@ export default function Home() {
                   width={175}
                   height={48}
                 />
-                <Button
-                  variant={"secondaryGradient"}
-                  className="md:w-[201px] w-[175px] md:h-[55px] h-[40px]"
-                >
+                <Button className="md:w-[201px] w-[175px] md:h-[55px] h-[40px] secondary-button">
                   Discover more{" "}
                   <svg
                     width="25"
@@ -297,10 +294,7 @@ export default function Home() {
 
           {/* Buttons */}
           <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-5">
-            <Button
-              className="md:w-[175px] w-[140px] md:h-[55px] h-[40px]"
-              variant="secondaryGradient"
-            >
+            <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button">
               Quick Demo
               <svg
                 width="25"
@@ -319,10 +313,7 @@ export default function Home() {
                 />
               </svg>
             </Button>
-            <Button
-              className="md:w-[175px] w-[140px] md:h-[55px] h-[40px]"
-              variant="primaryGradient"
-            >
+            <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
               Find More Details
               <svg
                 width="25"
@@ -400,10 +391,7 @@ export default function Home() {
             </ul>
             {/* Buttons */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-5">
-              <Button
-                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px]"
-                variant="secondaryGradient"
-              >
+              <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button">
                 Quick Demo
                 <svg
                   width="25"
@@ -422,10 +410,7 @@ export default function Home() {
                   />
                 </svg>
               </Button>
-              <Button
-                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px]"
-                variant="primaryGradient"
-              >
+              <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
                 Find More Details
                 <svg
                   width="25"
@@ -496,8 +481,8 @@ export default function Home() {
             {/* Buttons */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-5">
               <Button
-                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px]"
-                variant="secondaryGradient"
+                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button"
+                
               >
                 Quick Demo
                 <svg
@@ -518,8 +503,8 @@ export default function Home() {
                 </svg>
               </Button>
               <Button
-                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px]"
-                variant="primaryGradient"
+                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button"
+                
               >
                 Find More Details
                 <svg
@@ -597,8 +582,8 @@ export default function Home() {
             {/* Buttons */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-5">
               <Button
-                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px]"
-                variant="secondaryGradient"
+                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button"
+                
               >
                 Quick Demo
                 <svg
@@ -619,8 +604,8 @@ export default function Home() {
                 </svg>
               </Button>
               <Button
-                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px]"
-                variant="primaryGradient"
+                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button"
+                
               >
                 Find More Details
                 <svg
@@ -741,8 +726,8 @@ export default function Home() {
         {/* Buttons */}
         <div className="flex items-center justify-center w-full gap-4 md:mt-10 mt-8">
           <Button
-            className="md:w-[175px] w-[140px] md:h-[55px] h-[40px]"
-            variant="primaryGradient"
+            className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button"
+           
           >
             Find More Details
             <svg
@@ -790,12 +775,14 @@ export default function Home() {
               <span style={{ fontWeight: "bold" }}>Schedule A</span> Meeting
             </h1>
             <h3 className="md:text-[18px] text-[12px] font-[500] text-[#222222] text-center md:text-start my-5">
-              Let’s discuss how <span style={{ fontWeight: "bold" }}>FinioTech</span> can elevate your business. Schedule a
-              meeting and explore innovative FinTech solutions tailored for you!
+              Let’s discuss how{" "}
+              <span style={{ fontWeight: "bold" }}>FinioTech</span> can elevate
+              your business. Schedule a meeting and explore innovative FinTech
+              solutions tailored for you!
             </h3>
             <Button
-              className="md:w-[175px] w-[140px] md:h-[55px] h-[40px]"
-              variant="primaryGradient"
+              className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button"
+              
             >
               Set a Meeting
               <svg

@@ -19,10 +19,7 @@ export default function Hero() {
           deliver you a launchable solution in a matter of 7 days.{" "}
         </h5>
         <div className="flex items-center gap-4 md:flex-row flex-col">
-          <Button
-            variant={"primaryGradient"}
-            className="md:w-[175px] w-[140px] md:h-[55px] h-[40px]"
-          >
+          <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
             Book A Meeting
             <svg
               width="24"
@@ -41,10 +38,7 @@ export default function Hero() {
               />
             </svg>
           </Button>
-          <Button
-            variant={"secondaryGradient"}
-            className="md:w-[201px] w-[175px] md:h-[55px] h-[40px]"
-          >
+          <Button className="md:w-[201px] w-[175px] md:h-[55px] h-[40px] secondary-button">
             Products & Services
             <svg
               width="24"
@@ -79,7 +73,9 @@ export default function Hero() {
               />
             </svg>
           </Button>
-          <h5 className="text-[12px] md:font-[700] font-semibold">2.5M Happy Users</h5>
+          <h5 className="text-[12px] md:font-[700] font-semibold">
+            2.5M Happy Users
+          </h5>
         </div>
       </div>
       <div className="relative w-full h-[500px] hidden md:flex justify-end">

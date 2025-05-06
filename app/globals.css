@@ -256,6 +256,8 @@ h5 {
 .arrow-variant {
   border: none;
   color: #138b7d;
+  background: transparent;
+  
 }
 
 /* Get in Touch Button */

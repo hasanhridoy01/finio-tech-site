@@ -129,8 +129,7 @@ export default function CorporateClients() {
       </div>
       <div className="flex items-center justify-center gap-4 md:flex-row flex-col my-10">
         <Button
-          variant={"secondaryGradient"}
-          className="md:w-[201px] w-[175px] md:h-[55px] h-[40px]"
+          className="md:w-[201px] w-[175px] md:h-[55px] h-[40px] secondary-button"
         >
           Quick Demo
           <svg
@@ -151,8 +150,8 @@ export default function CorporateClients() {
           </svg>
         </Button>
         <Button
-          variant={"primaryGradient"}
-          className="md:w-[175px] w-[140px] md:h-[55px] h-[40px]"
+          
+          className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button"
         >
           Find More Details
           <svg
