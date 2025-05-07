@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="footer-top-section md:flex hidden absolute top-[-280px] z-10">
           <div className="relative w-full h-[569px]  overflow-hidden rounded-[30px]">
             <div
-              className="absolute right-[-170px] top-1/2 transform -translate-y-1/2 h-full w-1/2 bg-no-repeat bg-cover bg-contain"
+              className="absolute right-[-40px] top-[288px] transform -translate-y-1/2 h-full w-1/2 bg-no-repeat bg-cover bg-contain"
               style={{ backgroundImage: "url('/fooer-top.png')" }}
             ></div>
 

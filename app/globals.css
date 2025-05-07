@@ -243,6 +243,27 @@ h5 {
   color: #ffffff;
   font-size: 12px;
   cursor: pointer;
+  /* 👇 Add transition for smooth hover effect */
+  transition: all 0.3s ease;
+  font-weight: 700;
+}
+.primary-button:hover {
+  font-family: var(--font-inter-sans), sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 1px;
+  padding-right: 24px;
+  padding-bottom: 1px;
+  padding-left: 24px;
+  border-radius: 50px;
+  background: var(--ft-primary-Darker, #096b60);
+  box-shadow: 2px 2px 3px 0px #bfe4e0, -2px -2px 3px 0px #ffffff;
+  color: #ffffff;
+  font-size: 12px;
+  cursor: pointer;
 }
 
 /* Secondary-Button */
@@ -261,6 +282,28 @@ h5 {
   background: linear-gradient(312.48deg, #f4fefc 14.21%, #e4f8f4 85.33%);
   box-shadow: -3px -3px 6px 0px rgba(255, 255, 255, 1);
   box-shadow: 3px 3px 5px 0px rgba(191, 228, 224, 1);
+  color: #138b7d;
+  font-size: 12px;
+  cursor: pointer;
+  /* 👇 Add transition for smooth hover effect */
+  transition: all 0.3s ease;
+  font-weight: 700; 
+}
+.secondary-button:hover {
+  font-family: var(--font-inter-sans), sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 1px;
+  padding-right: 24px;
+  padding-bottom: 1px;
+  padding-left: 24px;
+  border-radius: 50px;
+  background: var(--ft-primary-Lighter, #b0ffed);
+  box-shadow: -2px -2px 3px 0px #ffffff;
+  box-shadow: 2px 2px 3px 0px #bfe4e0;
   color: #138b7d;
   font-size: 12px;
   cursor: pointer;

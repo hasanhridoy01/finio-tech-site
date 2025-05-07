@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter, Poppins, Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/shared/Header";
-import Hero from "@/components/shared/Hero";
 import Footer from "@/components/shared/Footer";
 
 const getInter = Inter({
@@ -39,7 +38,6 @@ export default function RootLayout({
         className={`${getPoppins.variable} ${getInter.variable} ${getRoboto.variable} antialiased`}
       >
         <Header />
-        <Hero />
         {children}
         <Footer />
       </body>

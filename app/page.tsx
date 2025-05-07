@@ -1,10 +1,12 @@
 import CorporateClients from "@/components/home-components/CorporateClients";
+import Hero from "@/components/shared/Hero";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <section>
+      <Hero />
       <div className="container mx-auto my-20 md:mt-40 mt-5 md:px-0 px-5">
         {/* Platform as a Service (PaaS) for Fintech Innovation */}
         <section className="mt-40">
@@ -267,7 +269,7 @@ export default function Home() {
         />
 
         {/* Content wrapper */}
-        <div className="md:absolute md:top-[340px] md:left-[66%] md:transform md:-translate-x-1/2 md:-translate-y-1/2 w-full max-w-[550px]">
+        <div className="md:absolute md:top-[50%] md:left-[66%] md:transform md:-translate-x-1/2 md:-translate-y-1/2 w-full max-w-[550px] min-h-[500px]">
           <h2 className="text-[11px] font-[900] text-[#222222] mb-2 text-center md:text-start">
             Features
           </h2>
@@ -480,10 +482,7 @@ export default function Home() {
             </ul>
             {/* Buttons */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-5">
-              <Button
-                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button"
-                
-              >
+              <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button">
                 Quick Demo
                 <svg
                   width="25"
@@ -502,10 +501,7 @@ export default function Home() {
                   />
                 </svg>
               </Button>
-              <Button
-                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button"
-                
-              >
+              <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
                 Find More Details
                 <svg
                   width="25"
@@ -581,10 +577,7 @@ export default function Home() {
             </ul>
             {/* Buttons */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-5">
-              <Button
-                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button"
-                
-              >
+              <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button">
                 Quick Demo
                 <svg
                   width="25"
@@ -603,10 +596,7 @@ export default function Home() {
                   />
                 </svg>
               </Button>
-              <Button
-                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button"
-                
-              >
+              <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
                 Find More Details
                 <svg
                   width="25"
@@ -725,10 +715,7 @@ export default function Home() {
         </div>
         {/* Buttons */}
         <div className="flex items-center justify-center w-full gap-4 md:mt-10 mt-8">
-          <Button
-            className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button"
-           
-          >
+          <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
             Find More Details
             <svg
               width="25"
@@ -765,8 +752,6 @@ export default function Home() {
           </Button>
         </div>
       </section>
-
-      
     </section>
   );
 }

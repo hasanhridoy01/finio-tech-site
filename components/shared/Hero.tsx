@@ -87,7 +87,7 @@ export default function Hero() {
         </div>
 
         <img
-          src="/hand.png"
+          src="/hand23.png"
           alt="Finiotech Hand"
           className="object-contain z-2 relative"
         />

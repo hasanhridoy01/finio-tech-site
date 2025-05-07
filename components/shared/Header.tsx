@@ -3,14 +3,21 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
-const navLinks = ["Home", "Products", "Services", "About"];
+const navLinks = [
+  { label: "Home", path: "/" },
+  { label: "Products", path: "/products" },
+  { label: "Services", path: "/services" },
+  { label: "About", path: "/about" },
+];
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [hideTopBg, setHideTopBg] = useState(false);
+  const pathname = usePathname();
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
@@ -32,6 +39,7 @@ export default function Header() {
             hideTopBg ? "opacity-0" : "opacity-100"
           }`}
         ></div>
+
         {/* Logo */}
         <div className="flex items-center gap-2">
           <Link href="/">
@@ -40,19 +48,22 @@ export default function Header() {
               alt="Finiotech Logo"
               width={163}
               height={36}
+              priority
             />
           </Link>
         </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6">
-          {navLinks.map((link) => (
+          {navLinks.map(({ label, path }) => (
             <Link
-              key={link}
-              href={`#${link.toLowerCase()}`}
-              className="text-[16px] font-semibold text-[#222222] hover:border-b-2 hover:border-primary transition border-b-2 border-transparent"
+              key={label}
+              href={path}
+              className={`text-[16px] font-semibold text-[#222222] pb-1 border-b-2 transition duration-300 ${
+                pathname === path ? "text-primary border-primary" : "border-transparent"
+              } hover:border-primary`}
             >
-              {link}
+              {label}
             </Link>
           ))}
           <Button className="get-in-touch">Get in Touch</Button>
@@ -68,14 +79,18 @@ export default function Header() {
       {isOpen && (
         <div className="md:hidden mt-7 px-1">
           <nav className="flex flex-col gap-4">
-            {navLinks.map((link) => (
+            {navLinks.map(({ label, path }) => (
               <Link
-                key={link}
-                href={`#${link.toLowerCase()}`}
-                className="text-[16px] font-medium text-gray-800 pb-2"
+                key={label}
+                href={path}
+                className={`text-[16px] font-medium pb-2 ${
+                  pathname === path
+                    ? "text-primary"
+                    : "text-gray-800"
+                }`}
                 onClick={() => setIsOpen(false)}
               >
-                {link}
+                {label}
               </Link>
             ))}
             <Button className="get-in-touch-small">Get in Touch</Button>
