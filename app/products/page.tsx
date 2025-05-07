@@ -1,7 +1,15 @@
-import { Button } from "@/components/ui/button";
+"use client";
+
 import React from "react";
+import { Button } from "@/components/ui/button";
+import { useRouter } from "next/navigation";
 
 export default function Products() {
+  const router = useRouter();
+
+  const handleDetailsClick = (id) => {
+    router.push(`/products/${id}`);
+  };
   return (
     <div className="container mx-auto md:pt-44 pt-28 md:px-0 px-5 h-auto">
       <div className="my-10">
@@ -44,7 +52,10 @@ export default function Products() {
           </ul>
           {/* Buttons */}
           <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-5">
-            <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button">
+            <Button
+              onClick={() => handleDetailsClick(1)}
+              className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button"
+            >
               More Details
               <svg
                 width="24"
@@ -110,7 +121,10 @@ export default function Products() {
           </ul>
           {/* Buttons */}
           <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-5">
-            <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button">
+            <Button
+              onClick={() => handleDetailsClick(2)}
+              className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button"
+            >
               More Details
               <svg
                 width="24"
@@ -172,7 +186,10 @@ export default function Products() {
           </ul>
           {/* Buttons */}
           <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-5">
-            <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button">
+            <Button
+              onClick={() => handleDetailsClick(3)}
+              className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button"
+            >
               More Details
               <svg
                 width="24"

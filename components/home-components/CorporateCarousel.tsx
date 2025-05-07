@@ -1,18 +1,18 @@
 import * as React from "react";
 
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/cardProduct";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
+} from "@/components/ui/carouselHome";
 
 export default function CorporateCarousel() {
   return (
     <div>
-      <Carousel className="w-full max-w-[410px]">
+      <Carousel className="w-full max-w-full">
         <CarouselContent>
           {Array.from({ length: 5 }).map((_, index) => (
             <CarouselItem key={index}>

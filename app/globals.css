@@ -313,6 +313,8 @@ h5 {
   border: none;
   color: #138b7d;
   background: transparent;
+  box-shadow: none;
+  cursor: pointer
 }
 
 /* Get in Touch Button */
