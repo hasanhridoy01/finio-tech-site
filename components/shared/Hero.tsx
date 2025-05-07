@@ -82,8 +82,6 @@ export default function Hero() {
           <img
             src="/doller.png"
             alt="Dollar Coin"
-            fill
-            priority
             className="object-contain"
           />
         </div>
