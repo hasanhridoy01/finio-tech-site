@@ -6,8 +6,8 @@ export default function CorporateClients() {
   return (
     <div className="container mx-auto mb-10 md:mt-24 mt-14 md:px-0 px-5 w-full">
       <div className="flex items-center justify-start box-shadow md:px-12 md:pt-10 pb-5 pt-8 px-8">
-        <Tabs defaultValue="For Individual" className="md:h-[530px] h-auto">
-          <TabsList className="grid md:w-[600px] w-[240px] md:h-[60px] h-auto md:grid-cols-3 grid-cols-1 md:rounded-lg rounded-[5px]">
+        <Tabs defaultValue="For Individual" className="md:h-[537px] h-auto">
+          <TabsList className="grid md:w-[600px] w-[240px] md:h-[66px] h-auto md:grid-cols-3 grid-cols-1 md:rounded-lg rounded-[5px]">
             <TabsTrigger value="For Individual">For Individual</TabsTrigger>
             <TabsTrigger value="For merchants">For merchants</TabsTrigger>
             <TabsTrigger value="System management">

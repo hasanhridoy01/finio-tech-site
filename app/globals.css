@@ -177,6 +177,18 @@ h5 {
   background-color: #b0ffed;
 }
 
+/* font-family  */
+.font-roboto {
+  font-family: var(--font-roboto-sans);
+}
+.font-inter {
+  font-family: var(--font-inter-sans);
+}
+
+.font-poppins {
+  font-family: var(--font-poppins-sans);
+}
+
 /* Shadow */
 .box-shadow {
   border-radius: 50px;
@@ -200,7 +212,6 @@ h5 {
 /* Section-Title */
 .section-title {
   font-weight: 900;
-  line-height: 100%;
   letter-spacing: 0%;
   background: linear-gradient(180deg, #138b5b 0%, #096b60 100%);
   -webkit-background-clip: text;
@@ -215,6 +226,7 @@ h5 {
 
 /* Primary-Button */
 .primary-button {
+  font-family: var(--font-inter-sans), sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -235,6 +247,7 @@ h5 {
 
 /* Secondary-Button */
 .secondary-button {
+  font-family: var(--font-inter-sans), sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -257,11 +270,11 @@ h5 {
   border: none;
   color: #138b7d;
   background: transparent;
-  
 }
 
 /* Get in Touch Button */
 .get-in-touch {
+  font-family: var(--font-inter-sans), sans-serif;
   width: 100;
   height: 40;
   gap: 10px;
@@ -278,6 +291,7 @@ h5 {
 }
 
 .get-in-touch-small {
+  font-family: var(--font-inter-sans), sans-serif;
   width: 100%;
   height: 34;
   gap: 10px;
@@ -334,4 +348,35 @@ h5 {
     top: -72px;
     left: 0;
   }
+}
+
+/* Footer-Section */
+.footer-top-section {
+  width: 100%;
+  border-radius: 50px;
+  border-width: 1px;
+  background: linear-gradient(89.28deg, #dbf9f2 -1.22%, #d2fdf9 59.57%);
+  border: 1px solid var(--Surface-Forground-Background, #ffffff);
+  box-shadow: -10px -10px 20px 0px #b1ebe1 inset;
+  box-shadow: 10px 15px 20px 0px #a4ccbe inset;
+  overflow: hidden;
+}
+.footer-top-image {
+  width: 100%;
+  height: 569px;
+  background-image: url("/fooer-top.png");
+  background-position: right center; /* <-- right + vertically centered */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer-top-title {
+  font-weight: 900;
+  letter-spacing: 0%;
+  background: #222222;
+  background-clip: text;
+  color: transparent;
+
+  /* Apply text border using text-stroke */
+  -webkit-text-stroke: 1px #222222;
+  text-stroke: 1px #222222;
 }

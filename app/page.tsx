@@ -110,7 +110,7 @@ export default function Home() {
         {/* A single platform for several uses */}
         <section className="mb-10 mt-24">
           <div className="mb-10 text-center">
-            <h1 className="section-title mb-4 md:text-[48px] text-[24px]">
+            <h1 className="section-title md:leading-[55px] leading-8 mb-4 md:text-[48px] text-[24px]">
               A single platform for several uses
             </h1>
             <h3 className="md:text-[16px] text-[14px] font-[400] mb-1 text-[#555555]">
@@ -271,7 +271,7 @@ export default function Home() {
           <h2 className="text-[11px] font-[900] text-[#222222] mb-2 text-center md:text-start">
             Features
           </h2>
-          <h1 className="section-title md:text-[48px] text-[24px] mb-2 text-center md:text-start">
+          <h1 className="section-title md:leading-[55px] leading-8 md:text-[48px] text-[24px] mb-2 text-center md:text-start">
             Mobile Financial Services Platform
           </h1>
           <h3 className="md:text-[18px] text-[12px] font-[500] text-[#222222] text-center md:text-start">
@@ -365,7 +365,7 @@ export default function Home() {
             <h2 className="text-[11px] font-[900] text-[#222222] mb-2 text-center md:text-start">
               Features
             </h2>
-            <h1 className="section-title md:text-[48px] text-[24px] mb-2 text-center md:text-start">
+            <h1 className="section-title md:leading-[55px] leading-8 md:text-[48px] text-[24px] mb-2 text-center md:text-start">
               Neobank Platform
             </h1>
             <h3 className="md:text-[18px] text-[12px] font-[500] text-[#222222] text-center md:text-start">
@@ -457,7 +457,7 @@ export default function Home() {
             <h2 className="text-[11px] font-[900] text-[#222222] mb-2 text-center md:text-start">
               Features
             </h2>
-            <h1 className="section-title md:text-[48px] text-[24px] mb-2 text-center md:text-start">
+            <h1 className="section-title md:leading-[55px] leading-8 md:text-[48px] text-[24px] mb-2 text-center md:text-start">
               Loan Management Platform
             </h1>
             <h3 className="md:text-[18px] text-[12px] font-[500] text-[#222222] text-center md:text-start">
@@ -555,10 +555,10 @@ export default function Home() {
             <img src="/Grafics.png" alt="" />
           </div>
           <div className="md:col-span-3 col-span-full">
-            <h2 className="text-[11px] font-[900] text-primary mb-2 text-center md:text-start">
+            <h2 className="text-[11px] font-[900] text-[#222222] mb-2 text-center md:text-start">
               PaaS Solutions
             </h2>
-            <h1 className="section-title md:text-[48px] text-[24px] mb-2 text-center md:text-start">
+            <h1 className="section-title md:leading-[55px] leading-8 md:text-[48px] text-[24px] mb-2 text-center md:text-start">
               Why Choose Our PaaS Solutions?
             </h1>
             <h3 className="md:text-[18px] text-[12px] font-[500] text-[#222222] text-center md:text-start">
@@ -648,7 +648,7 @@ export default function Home() {
 
       {/* key features across platforms */}
       <section className="mb-10 mt-24">
-        <h1 className="section-title md:text-[48px] text-[24px] text-center md:mb-14 mb-7">
+        <h1 className="section-title md:leading-[55px] leading-8 md:text-[48px] text-[24px] text-center md:mb-14 mb-7">
           key features across platforms
         </h1>
         <div className="container mx-auto w-full grid grid-cols-2 md:grid-cols-6 items-center justify-between gap-5 md:px-0 px-5">
@@ -766,61 +766,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Schedule A Meeting */}
-      <div className="md:block hidden">
-        <div className="container mx-auto md:py-20 py-10 md:block hidden relative">
-          <img className="h-[669px] w-full" src="/Form.png" alt="" />
-          <div className="absolute top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2 w-[600px]">
-            <h1 className="section-title md:text-[48px] text-[24px] mb-2 text-center md:text-start">
-              <span style={{ fontWeight: "bold" }}>Schedule A</span> Meeting
-            </h1>
-            <h3 className="md:text-[18px] text-[12px] font-[500] text-[#222222] text-center md:text-start my-5">
-              Let’s discuss how{" "}
-              <span style={{ fontWeight: "bold" }}>FinioTech</span> can elevate
-              your business. Schedule a meeting and explore innovative FinTech
-              solutions tailored for you!
-            </h3>
-            <Button
-              className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button"
-              
-            >
-              Set a Meeting
-              <svg
-                width="25"
-                height="25"
-                viewBox="0 0 25 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M14.7359 6.43018L20.8059 12.5002L14.7359 18.5702"
-                  stroke="white"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M11.3159 12.5H20.6359"
-                  stroke="white"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M3.80591 12.5H7.27591"
-                  stroke="white"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </Button>
-          </div>
-        </div>
-      </div>
+      
     </section>
   );
 }

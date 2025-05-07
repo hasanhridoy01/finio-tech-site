@@ -9,7 +9,7 @@ export default function Hero() {
         <h3 className="md:text-[32px] text-[16px] font-[400] mb-1">
           Emphasizes growth and FinTech focus with AI.
         </h3>
-        <h1 className="section-title mb-2 md:text-[48px] text-[24px]">
+        <h1 className="section-title md:leading-[55px] leading-8 mb-2 md:text-[48px] text-[24px]">
           Boost Your Financial Future with FinioTech
         </h1>
         <h5 className="md:text-[14px] text-[12px] font-[400] mb-7">
@@ -80,7 +80,7 @@ export default function Hero() {
       </div>
       <div className="relative w-full h-[500px] hidden md:flex justify-end">
         <div className="absolute top-[-80] left-1/3 transform -translate-x-1/3 w-[267px] h-[267px] z-1 doller-image">
-          <Image
+          <img
             src="/doller.png"
             alt="Dollar Coin"
             fill

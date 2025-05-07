@@ -186,7 +186,7 @@ function CarouselPrevious({
       className={cn(
         "absolute size-8 arrow-variant",
         orientation === "horizontal"
-          ? "bottom-1/5 -left-12 translate-y-1/2"
+          ? "bottom-1/2 -left-12 translate-y-1/2"
           : "bottom-[-48px] left-1/2 -translate-x-1/2 rotate-90",
         className
       )}
@@ -215,7 +215,7 @@ function CarouselNext({
       className={cn(
         "absolute size-8 arrow-variant",
         orientation === "horizontal"
-          ? "bottom-1/5 -right-12 translate-y-1/2"
+          ? "bottom-1/2 -right-12 translate-y-1/2"
           : "bottom-[-48px] left-1/2 -translate-x-1/2 rotate-90",
         className
       )}
