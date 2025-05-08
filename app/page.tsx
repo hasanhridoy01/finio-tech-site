@@ -112,7 +112,7 @@ export default function Home() {
         {/* A single platform for several uses */}
         <section className="mb-10 mt-24">
           <div className="mb-10 text-center">
-            <h1 className="section-title md:leading-[55px] leading-8 mb-4 md:text-[48px] text-[24px]">
+            <h1 className="section-title-two md:leading-[55px] leading-8 mb-4 md:text-[48px] text-[24px]">
               A single platform for several uses
             </h1>
             <h3 className="md:text-[16px] text-[14px] font-[400] mb-1 text-[#555555]">
@@ -273,10 +273,10 @@ export default function Home() {
           <h2 className="text-[11px] font-[900] text-[#222222] mb-2 text-center md:text-start">
             Features
           </h2>
-          <h1 className="section-title md:leading-[55px] leading-8 md:text-[48px] text-[24px] mb-2 text-center md:text-start">
+          <h1 className="section-title-two md:leading-[55px] leading-8 md:text-[48px] text-[24px] mb-2 text-center md:text-start">
             Mobile Financial Services Platform
           </h1>
-          <h3 className="md:text-[18px] text-[12px] font-[500] text-[#222222] text-center md:text-start">
+          <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
             Deliver seamless digital payment experiences with our robust,
             secure, and scalable eWallet solutions
           </h3>
@@ -367,10 +367,10 @@ export default function Home() {
             <h2 className="text-[11px] font-[900] text-[#222222] mb-2 text-center md:text-start">
               Features
             </h2>
-            <h1 className="section-title md:leading-[55px] leading-8 md:text-[48px] text-[24px] mb-2 text-center md:text-start">
+            <h1 className="section-title-two md:leading-[55px] leading-8 md:text-[48px] text-[24px] mb-2 text-center md:text-start">
               Neobank Platform
             </h1>
-            <h3 className="md:text-[18px] text-[12px] font-[500] text-[#222222] text-center md:text-start">
+            <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
               Launch a fully digital bank with a feature-rich and user-friendly
               platform
             </h3>
@@ -459,10 +459,10 @@ export default function Home() {
             <h2 className="text-[11px] font-[900] text-[#222222] mb-2 text-center md:text-start">
               Features
             </h2>
-            <h1 className="section-title md:leading-[55px] leading-8 md:text-[48px] text-[24px] mb-2 text-center md:text-start">
+            <h1 className="section-title-two md:leading-[55px] leading-8 md:text-[48px] text-[24px] mb-2 text-center md:text-start">
               Loan Management Platform
             </h1>
-            <h3 className="md:text-[18px] text-[12px] font-[500] text-[#222222] text-center md:text-start">
+            <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
               Streamline your lending operations with our automated loan
               platform
             </h3>
@@ -554,10 +554,10 @@ export default function Home() {
             <h2 className="text-[11px] font-[900] text-[#222222] mb-2 text-center md:text-start">
               PaaS Solutions
             </h2>
-            <h1 className="section-title md:leading-[55px] leading-8 md:text-[48px] text-[24px] mb-2 text-center md:text-start">
+            <h1 className="section-title-two md:leading-[55px] leading-8 md:text-[48px] text-[24px] mb-2 text-center md:text-start">
               Why Choose Our PaaS Solutions?
             </h1>
-            <h3 className="md:text-[18px] text-[12px] font-[500] text-[#222222] text-center md:text-start">
+            <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
               Streamline your lending operations with our automated loan
               platform
             </h3>
@@ -638,68 +638,68 @@ export default function Home() {
 
       {/* key features across platforms */}
       <section className="mb-10 mt-24">
-        <h1 className="section-title md:leading-[55px] leading-8 md:text-[48px] text-[24px] text-center md:mb-14 mb-7">
+        <h1 className="section-title-two md:leading-[55px] leading-8 md:text-[48px] text-[24px] text-center md:mb-14 mb-7">
           key features across platforms
         </h1>
         <div className="container mx-auto w-full grid grid-cols-2 md:grid-cols-6 items-center justify-between gap-5 md:px-0 px-5">
           <div className="md:col-span-2 col-span-full box-shadow-two md:px-10 px-5 md:py-8 py-5 rounded-[8px] md:h-[212px] h-auto">
-            <h3 className="md:text-[18px] text-[12px] font-[700] text-[#222222] text-center md:text-start mb-2">
+            <h3 className="md:text-[18px] text-[14px] font-[700] text-[#222222] text-center md:text-start mb-2">
               key features across platforms
             </h3>
-            <h5 className="md:text-[16px] text-[12px] font-[500] text-[#222222] text-center md:text-start">
+            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
               ✦ Built-in compliance with global standards, including PCI DSS,
               GDPR, ISO 27001, and PSD2
             </h5>
           </div>
           <div className="md:col-span-2 col-span-full box-shadow-two md:px-10 px-5 md:py-8 py-5 rounded-[8px] md:h-[212px] h-auto">
-            <h3 className="md:text-[18px] text-[12px] font-[700] text-[#222222] text-center md:text-start mb-2">
+            <h3 className="md:text-[18px] text-[14px] font-[700] text-[#222222] text-center md:text-start mb-2">
               API-Driven Architecture
             </h3>
-            <h5 className="md:text-[16px] text-[12px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
+            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
               ✦ Comprehensive RESTful and GraphQL APIs for seamless integrations
             </h5>
-            <h5 className="md:text-[16px] text-[12px] font-[500] text-[#222222] text-center md:text-start">
+            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
               ✦ SDKs for faster implementation on iOS, Android, and web
               platforms
             </h5>
           </div>
           <div className="md:col-span-2 col-span-full box-shadow-two md:px-10 px-5 md:py-8 py-5 rounded-[8px] md:h-[212px] h-auto">
-            <h3 className="md:text-[18px] text-[12px] font-[700] text-[#222222] text-center md:text-start mb-2">
+            <h3 className="md:text-[18px] text-[14px] font-[700] text-[#222222] text-center md:text-start mb-2">
               Advanced Security
             </h3>
-            <h5 className="md:text-[16px] text-[12px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
+            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
               ✦ AES-256 Encryption for sensitive data storage
             </h5>
-            <h5 className="md:text-[16px] text-[12px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
+            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
               ✦ TLS 1.3 for secure communication.
             </h5>
-            <h5 className="md:text-[16px] text-[12px] font-[500] text-[#222222] text-center md:text-start">
+            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
               ✦ Biometric authentication for end-user security
             </h5>
           </div>
           <div className="md:col-span-2 col-span-full box-shadow-two md:px-10 px-5 md:py-8 py-5 rounded-[8px] md:h-[212px] h-auto">
-            <h3 className="md:text-[18px] text-[12px] font-[700] text-[#222222] text-center md:text-start mb-2">
+            <h3 className="md:text-[18px] text-[14px] font-[700] text-[#222222] text-center md:text-start mb-2">
               AI and Machine Learning
             </h3>
-            <h5 className="md:text-[16px] text-[12px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
+            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
               ✦ Personalized recommendations and insights for users
             </h5>
-            <h5 className="md:text-[16px] text-[12px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
+            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
               ✦ Fraud detection and prevention systems
             </h5>
-            <h5 className="md:text-[16px] text-[12px] font-[500] text-[#222222] text-center md:text-start">
+            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
               ✦ Real-time credit risk analysis for loan platforms
             </h5>
           </div>
           <div className="md:col-span-2 col-span-full box-shadow-two md:px-10 px-5 md:py-8 py-5 rounded-[8px] md:h-[212px] h-auto">
-            <h3 className="md:text-[18px] text-[12px] font-[700] text-[#222222] text-center md:text-start mb-2">
+            <h3 className="md:text-[18px] text-[14px] font-[700] text-[#222222] text-center md:text-start mb-2">
               Real-Time Analytics
             </h3>
-            <h5 className="md:text-[16px] text-[12px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
+            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
               ✦ Dashboard with actionable insights into transactions, user
               engagement, and operational performance
             </h5>
-            <h5 className="md:text-[16px] text-[12px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
+            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
               ✦ Customizable reports for compliance and business strategy
             </h5>
           </div>

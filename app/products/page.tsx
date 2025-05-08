@@ -16,14 +16,14 @@ export default function Products() {
         <h1 className="section-title md:leading-[55px] leading-8 md:text-[48px] text-[24px] mb-2 text-center md:text-start text-white">
           Products
         </h1>
-        <h3 className="md:text-[18px] text-[12px] font-medium text-[#222222] text-center md:text-start md:w-[850px] w-full">
+        <h3 className="md:text-[18px] text-[14px] font-medium text-[#222222] text-center md:text-start md:w-[850px] w-full">
           Discover Cutting-Edge Financial Technologies Designed to Streamline
           Operations, Maximize Efficiency, and Drive Sustainable Growth for Your
           Business
         </h3>
       </div>
       {/* section-content */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 items-center box-shadow md:px-12 md:pt-10 pb-5 pt-8 px-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 items-center box-shadow md:px-12 md:py-10 pb-5 py-8 px-8">
         <div className="md:col-span-1 col-span-full">
           <img src="/Product-images1.png" alt="" />
         </div>
@@ -31,13 +31,13 @@ export default function Products() {
           <h2 className="leading-8 md:text-[24px] text-[16px] font-[900] mb-2 text-center md:text-start">
             Neobank Platform
           </h2>
-          <h3 className="md:text-[18px] text-[12px] font-[500] text-[#222222] text-center md:text-start">
+          <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
             Launch a fully digital bank with a feature-rich and user-friendly
             platform
           </h3>
 
           {/* Features List */}
-          <ul className="list-disc pl-5 mt-2.5 ml-3 text-[#222222] text-[12px] md:text-[18px] font-[500]">
+          <ul className="list-disc pl-5 mt-2.5 ml-3 text-[#222222] text-[14px] md:text-[18px] font-[500]">
             <li className="mb-1">
               Instant digital account opening with KYC/AML compliance for
               individuals and businesses
@@ -94,7 +94,7 @@ export default function Products() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 items-center box-shadow md:px-12 md:pt-10 pb-5 pt-8 px-8 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 items-center box-shadow md:px-12 md:py-10 pb-5 py-8 px-8 mt-10">
         <div className="md:col-span-1 col-span-full">
           <img src="/Product-images2.png" alt="" />
         </div>
@@ -102,13 +102,13 @@ export default function Products() {
           <h2 className="leading-8 md:text-[24px] text-[16px] font-[900] mb-2 text-center md:text-start">
             Mobile Financial Services Platform
           </h2>
-          <h3 className="md:text-[18px] text-[12px] font-[500] text-[#222222] text-center md:text-start">
+          <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
             Deliver seamless digital payment experiences with our robust,
             secure, and scalable eWallet solutions
           </h3>
 
           {/* Features List */}
-          <ul className="list-disc pl-5 mt-2.5 ml-3 text-[#222222] text-[12px] md:text-[18px] font-[500]">
+          <ul className="list-disc pl-5 mt-2.5 ml-3 text-[#222222] text-[14px] md:text-[18px] font-[500]">
             <li className="mb-1">Single or Multi-currency options</li>
             <li className="mb-1">Cross-border payments</li>
             <li className="mb-1">
@@ -163,7 +163,7 @@ export default function Products() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 items-center box-shadow md:px-12 md:pt-10 pb-5 pt-8 px-8 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 items-center box-shadow md:px-12 md:py-10 pb-5 py-8 px-8 mt-10">
         <div className="md:col-span-1 col-span-full">
           <img src="/Product-images3.png" alt="" />
         </div>
@@ -171,12 +171,12 @@ export default function Products() {
           <h2 className="leading-8 md:text-[24px] text-[16px] font-[900] mb-2 text-center md:text-start">
             Loan Management Platform
           </h2>
-          <h3 className="md:text-[18px] text-[12px] font-[500] text-[#222222] text-center md:text-start">
+          <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
             Streamline your lending operations with our automated loan platform
           </h3>
 
           {/* Features List */}
-          <ul className="list-disc pl-5 mt-2.5 ml-3 text-[#222222] text-[12px] md:text-[18px] font-[500]">
+          <ul className="list-disc pl-5 mt-2.5 ml-3 text-[#222222] text-[14px] md:text-[18px] font-[500]">
             <li className="mb-1">
               End-to-end loan lifecycle management (origination to closure)
             </li>

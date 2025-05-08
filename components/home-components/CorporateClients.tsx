@@ -20,7 +20,7 @@ export default function CorporateClients() {
                 <h2 className="md:text-[24px] text-[16px] font-[900]">
                   For Individual & corporate clients
                 </h2>
-                <h3 className="md:text-[18px] text-[12px] font-[500] text-[#222222] text-center md:text-start">
+                <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
                   Deliver seamless digital payment experiences with our robust,
                   secure, and eWallet solutions
                 </h3>
@@ -57,7 +57,7 @@ export default function CorporateClients() {
                 <h2 className="md:text-[24px] text-[16px] font-[900]">
                   For merchants & corporate clients
                 </h2>
-                <h3 className="md:text-[18px] text-[12px] font-[500] text-[#222222] text-center md:text-start">
+                <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
                   Deliver seamless digital payment experiences with our robust,
                   secure, and eWallet solutions
                 </h3>
@@ -94,7 +94,7 @@ export default function CorporateClients() {
                 <h2 className="md:text-[24px] text-[16px] font-[900]">
                   System management & corporate clients
                 </h2>
-                <h3 className="md:text-[18px] text-[12px] font-[500] text-[#222222] text-center md:text-start">
+                <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
                   Deliver seamless digital payment experiences with our robust,
                   secure, and eWallet solutions
                 </h3>

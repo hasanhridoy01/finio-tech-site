@@ -160,7 +160,7 @@ h5 {
 /* container-media-query */
 .container {
   max-width: 1440px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 /* primary color code */
@@ -209,9 +209,34 @@ h5 {
     -3px -3px 6px 0px #fff;
 }
 
+.about-card-box {
+  border-top-left-radius: 42px;
+  /* border-top-right-radius: 500px; */
+  /* border-bottom-right-radius: 500px; */
+  border-bottom-left-radius: 42px;
+  background: #e1f6f3;
+  border: 5px solid #ffffff;
+  box-shadow: 1px 1px 2px 0px #aeaec033 inset;
+  box-shadow: -1px -1px 1px 0px #ffffffb2 inset;
+}
+
 /* Section-Title */
 .section-title {
   font-weight: 900;
+  letter-spacing: 0%;
+  background: linear-gradient(180deg, #138b5b 0%, #096b60 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+
+  /* Apply text border using text-stroke */
+  -webkit-text-stroke: 1px #096b60;
+  text-stroke: 1px #096b60;
+}
+
+.section-title-two {
+  font-weight: 700;
   letter-spacing: 0%;
   background: linear-gradient(180deg, #138b5b 0%, #096b60 100%);
   -webkit-background-clip: text;
@@ -287,7 +312,7 @@ h5 {
   cursor: pointer;
   /* 👇 Add transition for smooth hover effect */
   transition: all 0.3s ease;
-  font-weight: 700; 
+  font-weight: 700;
 }
 .secondary-button:hover {
   font-family: var(--font-inter-sans), sans-serif;
@@ -314,7 +339,7 @@ h5 {
   color: #138b7d;
   background: transparent;
   box-shadow: none;
-  cursor: pointer
+  cursor: pointer;
 }
 
 /* Get in Touch Button */
@@ -415,7 +440,7 @@ h5 {
   background-repeat: no-repeat;
 }
 .footer-top-title {
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 0%;
   background: #222222;
   background-clip: text;

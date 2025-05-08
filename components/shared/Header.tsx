@@ -77,7 +77,7 @@ export default function Header() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden mt-7 px-1">
+        <div className="md:hidden mt-7 px-1 h-screen">
           <nav className="flex flex-col gap-4">
             {navLinks.map(({ label, path }) => (
               <Link

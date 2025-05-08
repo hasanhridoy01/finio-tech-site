@@ -19,9 +19,9 @@ export default function Footer() {
               <div className="max-w-[600px]">
                 <h1 className="text-[24px] md:text-[48px] font-semibold leading-snug md:leading-[55px] mb-2 text-start">
                   <span className="footer-top-title">Schedule A</span>{" "}
-                  <span className="section-title">Meeting</span>
+                  <span className="section-title-two">Meeting</span>
                 </h1>
-                <h3 className="text-[12px] md:text-[18px] font-medium text-[#222] my-5 text-start">
+                <h3 className="text-[14px] md:text-[18px] font-medium text-[#222] my-5 text-start">
                   Let’s discuss how <strong>FinioTech</strong> can elevate your
                   business. Schedule a meeting and explore innovative FinTech
                   solutions tailored for you!
@@ -86,7 +86,7 @@ export default function Footer() {
               <span className="footer-top-title">Schedule A</span>{" "}
               <span className="section-title">Meeting</span>
             </h1>
-            <h3 className="text-[12px] font-medium text-[#222222] my-2 text-center">
+            <h3 className="text-[14px] font-medium text-[#222222] my-2 text-center">
               Let’s discuss how <strong>FinioTech</strong> can elevate your
               business. Schedule a meeting and explore innovative FinTech
               solutions tailored for you!
@@ -146,59 +146,59 @@ export default function Footer() {
         <hr className="my-5 border border-[#8CBEB1]" />
         <div className="grid md:grid-cols-12 grid-cols-2 gap-4">
           <div className="col-span-full md:col-span-2">
-            <h3 className="md:text-[22px] text-[16px] font-[700] font-roboto">About Us</h3>
+            <h3 className="md:text-[22px] text-[16px] font-[700] font-roboto mb-5">About Us</h3>
 
-            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto">
+            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-1">
               Company
             </h5>
-            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto">
+            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-1">
               Services
-            </h5>
-            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto">
+            </h5> 
+            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-1">
               Products
             </h5>
-            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto">
+            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-1">
               Contact
             </h5>
           </div>
           <div className="col-span-full md:col-span-3">
-            <h3 className="md:text-[22px] text-[16px] font-[700] font-roboto">
+            <h3 className="md:text-[22px] text-[16px] font-[700] font-roboto mb-5">
               Industries We Serve
             </h3>
 
-            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto">
+            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-1">
               Fintech Startups
             </h5>
-            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto">
+            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-1">
               Banks & Financial Institutions
             </h5>
-            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto">
+            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-1">
               Retailers & E-commerce
             </h5>
-            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto">
+            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-1">
               Lending Firms
             </h5>
           </div>
           <div className="col-span-full md:col-span-3">
-            <h3 className="md:text-[22px] text-[16px] font-[700] font-roboto">
+            <h3 className="md:text-[22px] text-[16px] font-[700] font-roboto mb-5">
               Get in Touch
             </h3>
 
-            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto">
+            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-1">
               Contact
             </h5>
-            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto">
+            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-1">
               FAQs
             </h5>
-            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto">
+            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-1">
               Important resources
             </h5>
-            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto">
+            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-1">
               Book a meeting
             </h5>
           </div>
           <div className="col-span-full md:col-span-3">
-            <h3 className="md:text-[22px] text-[16px] font-[700] font-roboto">
+            <h3 className="md:text-[22px] text-[16px] font-[700] font-roboto mb-5">
               Stay updated with FinioTech{" "}
             </h3>
 
@@ -340,7 +340,7 @@ export default function Footer() {
           </div>
         </div>
         <hr className="my-5 border border-[#8CBEB1]" />
-        <div className="flex md:items-center items-start justify-between gap-3 md:flex-row flex-col">
+        <div className="flex md:items-center items-start justify-between gap-3 md:flex-row flex-col mb-3">
           <h3 className="md:text-[16px] text-[14px] font-[500] font-roboto">
             {new Date().getFullYear()} © FinioTech. All Rights Reserved.
           </h3>
