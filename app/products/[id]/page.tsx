@@ -1,14 +1,13 @@
-import ProductCarousel from "@/components/products-components/ProductCarousel";
 import React from "react";
+import ProductCarousel from "@/components/products-components/ProductCarousel";
 
-// Define the type for the params prop
-interface ProductDetailsProps {
+interface PageProps {
   params: {
     id: string;
   };
 }
 
-const ProductDetails: React.FC<ProductDetailsProps> = ({ params }) => {
+const ProductDetails = ({ params }: PageProps) => {
   const { id } = params;
   console.log(id);
 
