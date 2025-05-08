@@ -7,7 +7,7 @@ export default function CorporateClients() {
     <div className="container mx-auto mb-10 md:mt-24 mt-14 md:px-0 px-5 w-full">
       <div className="flex items-center justify-start box-shadow md:px-12 md:pt-10 pb-5 pt-8 px-8">
         <Tabs defaultValue="For Individual" className="md:h-[537px] h-auto">
-          <TabsList className="grid md:w-[600px] w-[240px] md:h-[66px] h-auto md:grid-cols-3 grid-cols-1 md:rounded-lg rounded-[5px]">
+          <TabsList className="grid md:w-[600px] w-[240px] md:h-[86px] h-auto md:grid-cols-3 grid-cols-1 md:rounded-lg rounded-[5px]">
             <TabsTrigger value="For Individual">For Individual</TabsTrigger>
             <TabsTrigger value="For merchants">For merchants</TabsTrigger>
             <TabsTrigger value="System management">
@@ -15,8 +15,8 @@ export default function CorporateClients() {
             </TabsTrigger>
           </TabsList>
           <TabsContent value="For Individual" className="md:py-1 py-3">
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-20 items-center justify-between">
-              <div className="col-span-full md:col-span-1">
+            <div className="grid md:grid-cols-2 grid-cols-1 gap-20 items-start justify-between">
+              <div className="col-span-full md:col-span-1 md:pt-10 pt-0">
                 <h2 className="md:text-[24px] text-[16px] font-[900]">
                   For Individual & corporate clients
                 </h2>
@@ -46,14 +46,14 @@ export default function CorporateClients() {
                   </li>
                 </ul>
               </div>
-              <div className="col-span-full md:col-span-1 md:flex hidden items-center justify-center">
+              <div className="col-span-full md:col-span-1 md:flex hidden items-center justify-center px-3">
                 <CorporateCarousel />
               </div>
             </div>
           </TabsContent>
           <TabsContent value="For merchants" className="md:py-1 py-3">
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-20 items-center justify-between">
-              <div className="col-span-full md:col-span-1">
+            <div className="grid md:grid-cols-2 grid-cols-1 gap-20 items-start justify-between">
+              <div className="col-span-full md:col-span-1 md:pt-10 pt-0">
                 <h2 className="md:text-[24px] text-[16px] font-[900]">
                   For merchants & corporate clients
                 </h2>
@@ -83,14 +83,14 @@ export default function CorporateClients() {
                   </li>
                 </ul>
               </div>
-              <div className="col-span-full md:col-span-1 md:flex hidden items-center justify-center">
+              <div className="col-span-full md:col-span-1 md:flex hidden items-center justify-center px-3">
                 <CorporateCarousel />
               </div>
             </div>
           </TabsContent>
           <TabsContent value="System management" className="md:py-1 py-3">
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-20 items-center justify-between">
-              <div className="col-span-full md:col-span-1">
+            <div className="grid md:grid-cols-2 grid-cols-1 gap-20 items-start justify-between">
+              <div className="col-span-full md:col-span-1 md:pt-10 pt-0">
                 <h2 className="md:text-[24px] text-[16px] font-[900]">
                   System management & corporate clients
                 </h2>
@@ -120,7 +120,7 @@ export default function CorporateClients() {
                   </li>
                 </ul>
               </div>
-              <div className="col-span-full md:col-span-1 md:flex hidden items-center justify-center">
+              <div className="col-span-full md:col-span-1 md:flex hidden items-center justify-center px-3">
                 <CorporateCarousel />
               </div>
             </div>
