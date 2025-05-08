@@ -264,7 +264,7 @@ export default function Home() {
         {/* Image only shown on md+ */}
         <img
           className="w-full h-auto md:block hidden"
-          src="/financial.png"
+          src="/Financial.png"
           alt="Financial"
         />
 
