@@ -1,4 +1,3 @@
-// app/not-found.tsx
 "use client";
 
 import Link from "next/link";
@@ -10,8 +9,9 @@ export default function NotFound() {
         404 - Page Not Found
       </h1>
       <p className="text-gray-700 mb-6">
-        Sorry, the page you're looking for doesn't exist.
+        Sorry, the page you&apos;re looking for doesn&apos;t exist.
       </p>
+
       <Link
         href="/"
         className="bg-primary text-white px-6 py-2 rounded-full hover:bg-green-700 transition"
