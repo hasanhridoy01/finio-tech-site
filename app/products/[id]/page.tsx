@@ -3,7 +3,7 @@ import ProductCarousel from "@/components/products-components/ProductCarousel";
 
 interface PageProps {
   params: {
-    id: string;
+    id: number;
   };
 }
 
