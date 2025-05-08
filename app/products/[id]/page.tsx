@@ -2,15 +2,13 @@ import React from "react";
 import ProductCarousel from "@/components/products-components/ProductCarousel";
 import { Button } from "@/components/ui/button";
 
-interface PageProps {
-  params: {
-    id: string;
-  };
-}
+type propsType = {
+  params: Promise<{ id: string }>;
+};
 
-const ProductDetails = ({ params }: PageProps) => {
-  const { id } = params;
-  console.log(id);
+const ProductDetails = async ({ params }: propsType) => {
+  const paramsData = await params;
+  console.log(paramsData.id);
 
   return (
     <div className="container mx-auto md:pt-44 pt-28 md:px-0 px-5 h-auto">
