@@ -1,15 +1,5 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export default function AboutTabs() {
@@ -1450,42 +1440,58 @@ export default function AboutTabs() {
         </TabsContent>
         <TabsContent value="Backend">
           <Card>
-            <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4"></div>
+            <CardContent>
+              <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4"></div>
+            </CardContent>
           </Card>
         </TabsContent>
         <TabsContent value="Frontend">
           <Card>
-            <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4"></div>
+            <CardContent>
+              <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4"></div>
+            </CardContent>
           </Card>
         </TabsContent>
         <TabsContent value="Database">
           <Card>
-            <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4"></div>
+            <CardContent>
+              <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4"></div>
+            </CardContent>
           </Card>
         </TabsContent>
         <TabsContent value="Cloud">
           <Card>
-            <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4"></div>
+            <CardContent>
+              <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4"></div>
+            </CardContent>
           </Card>
         </TabsContent>
         <TabsContent value="Testing">
           <Card>
-            <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4"></div>
+            <CardContent>
+              <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4"></div>
+            </CardContent>
           </Card>
         </TabsContent>
         <TabsContent value="Devops">
           <Card>
-            <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4"></div>
+            <CardContent>
+              <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4"></div>
+            </CardContent>
           </Card>
         </TabsContent>
         <TabsContent value="Design">
           <Card>
-            <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4"></div>
+            <CardContent>
+              <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4"></div>
+            </CardContent>
           </Card>
         </TabsContent>
         <TabsContent value="Mobile App">
           <Card>
-            <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4"></div>
+            <CardContent>
+              <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4"></div>
+            </CardContent>
           </Card>
         </TabsContent>
       </Tabs>
