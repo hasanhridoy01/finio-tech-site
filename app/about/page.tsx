@@ -631,6 +631,102 @@ export default function page() {
           <AboutTabs />
         </div>
       </div>
+
+      <div className="md:my-40 my-20">
+        <div className="flex flex-col items-center justify-center mb-5">
+          <h2 className="text-[11px] font-[900] text-[#222222] mb-2 text-center md:text-start">
+            Our journey.
+          </h2>
+          <h1 className="section-title-two md:leading-[55px] leading-8 md:text-[48px] text-[24px] mb-2 text-center md:text-start">
+            Roadmap FinioTech Ltd.
+          </h1>
+          <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
+            Complete journey map of FinioTech.
+          </h3>
+        </div>
+
+        <div className="my-10 grid grid-cols-1 md:grid-cols-4 gap-4">
+          <div className="box-shadow p-5 col-span-1">
+            <div className="journey-box-card">
+              <h3 className="md:text-[24px] text-[18px] font-[900] text-[#00A1A1] text-center">
+                2019
+              </h3>
+            </div>
+            <div className="mb-4">
+              <h3 className="md:text-[16px] text-[14px] font-semibold text-[#222222] text-start my-3">
+                Foundation and Initial Expertise
+              </h3>
+              <h4 className="md:text-[14px] text-[12px] font-normal text-[#222222] text-start mb-1.5">
+                ✦ Launched FinioTech with a mission to revolutionize the FinTech
+                landscape.
+              </h4>
+              <h4 className="md:text-[14px] text-[12px] font-normal text-[#222222] text-start">
+                ✦ Focused on building a robust foundation of innovative SaaS
+                solutions
+              </h4>
+            </div>
+          </div>
+          <div className="box-shadow p-5 col-span-1">
+            <div className="journey-box-card">
+              <h3 className="md:text-[24px] text-[18px] font-[900] text-[#00A1A1] text-center">
+                2020 - 2021
+              </h3>
+            </div>
+            <div className="mb-4">
+              <h3 className="md:text-[16px] text-[14px] font-semibold text-[#222222] text-start my-3">
+                Growth and Market Recognition
+              </h3>
+              <h4 className="md:text-[14px] text-[12px] font-normal text-[#222222] text-start mb-1.5">
+                ✦ Expanded our portfolio with solutions for eWallets,
+                neobanking, and loan management.
+              </h4>
+              <h4 className="md:text-[14px] text-[12px] font-normal text-[#222222] text-start">
+                ✦ Gained recognition for delivering secure and scalable
+                financial technology platforms.
+              </h4>
+            </div>
+          </div>
+          <div className="box-shadow p-5 col-span-1">
+            <div className="journey-box-card">
+              <h3 className="md:text-[24px] text-[18px] font-[900] text-[#00A1A1] text-center">
+                2022
+              </h3>
+            </div>
+            <div className="mb-4">
+              <h3 className="md:text-[16px] text-[14px] font-semibold text-[#222222] text-start my-3">
+                Customer-Centric Innovations
+              </h3>
+              <h4 className="md:text-[14px] text-[12px] font-normal text-[#222222] text-start mb-1.5">
+                ✦ Shifted focus to customer-centric designs and solutions..
+              </h4>
+              <h4 className="md:text-[14px] text-[12px] font-normal text-[#222222] text-start">
+                ✦ Introduced advanced features to simplify and enhance user
+                experiences in financial services.
+              </h4>
+            </div>
+          </div>
+          <div className="box-shadow p-5 col-span-1">
+            <div className="journey-box-card">
+              <h3 className="md:text-[24px] text-[18px] font-[900] text-[#00A1A1] text-center">
+                2023 - Present
+              </h3>
+            </div>
+            <div className="mb-4">
+              <h3 className="md:text-[16px] text-[14px] font-semibold text-[#222222] text-start my-3">
+                Scaling New Heights
+              </h3>
+              <h4 className="md:text-[14px] text-[12px] font-normal text-[#222222] text-start mb-1.5">
+                ✦ Expanded globally, offering tailored FinTech solutions to
+                diverse markets.
+              </h4>
+              <h4 className="md:text-[14px] text-[12px] font-normal text-[#222222] text-start">
+                ✦ Continued our vision to be the global leader in the financial
+                technology ecosystem.
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
