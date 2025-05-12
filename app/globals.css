@@ -477,3 +477,15 @@ h5 {
   align-items: center;
   justify-content: center;
 }
+
+/* contact-input-style */
+.contact-input-style {
+  gap: 10px;
+  border-radius: 12px;
+  padding: 12px;
+  background: #f0f0f3;
+  box-shadow: -1px -1px 3px 0px #fff,
+    1.5px 1.5px 3px 0px rgba(174, 174, 192, 0.4);
+  margin: 10px 0px;
+  color: #555555;
+}

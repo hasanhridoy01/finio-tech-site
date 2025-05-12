@@ -60,17 +60,21 @@ export default function Header() {
               key={label}
               href={path}
               className={`text-[16px] font-semibold text-[#222222] pb-1 border-b-2 transition duration-300 ${
-                pathname === path ? "text-primary border-primary" : "border-transparent"
+                pathname === path
+                  ? "text-primary border-primary"
+                  : "border-transparent"
               } hover:border-primary`}
             >
               {label}
             </Link>
           ))}
-          <Button className="get-in-touch">Get in Touch</Button>
+          <Link href="/contact">
+            <Button className="get-in-touch-small">Get in Touch</Button>
+          </Link>
         </nav>
 
         {/* Mobile Hamburger */}
-        <button onClick={toggleMenu} className="md:hidden text-green-800">
+        <button onClick={toggleMenu} className="md:hidden text-primary cursor-pointer">
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
@@ -84,16 +88,16 @@ export default function Header() {
                 key={label}
                 href={path}
                 className={`text-[16px] font-medium pb-2 ${
-                  pathname === path
-                    ? "text-primary"
-                    : "text-gray-800"
+                  pathname === path ? "text-primary" : "text-gray-800"
                 }`}
                 onClick={() => setIsOpen(false)}
               >
                 {label}
               </Link>
             ))}
-            <Button className="get-in-touch-small">Get in Touch</Button>
+            <Link href="/contact" onClick={() => setIsOpen(false)}>
+              <Button className="get-in-touch-small">Get in Touch</Button>
+            </Link>
           </nav>
         </div>
       )}
