@@ -7,7 +7,7 @@ export default function page() {
     <div className="container mx-auto md:pt-44 pt-28 md:px-0 px-5 h-auto">
       <div className="my-10">
         <h1 className="section-title md:leading-[55px] leading-8 md:text-[48px] text-[24px] mb-2 text-center md:text-start text-white">
-          About
+          FinioTech Ltd.
         </h1>
         <h3 className="md:text-[18px] text-[14px] font-medium text-[#222222] text-center md:text-start md:w-[850px] w-full">
           We are the first call for every outrageous, unthinkable and unknown
@@ -541,35 +541,35 @@ export default function page() {
               Why Choose FinioTech Ltd?
             </h1>
             <div className="md:my-8 my-5">
-              <div className="box-shadow-two p-2 rounded-[8px] mb-3">
+              <div className="box-shadow-two p-3 rounded-[8px] mb-4">
                 <h3 className="md:text-[18px] text-[14px] font-medium text-[#222222] text-center md:text-start">
                   Proven track record in delivering cutting-edge FinTech
                   solutions{" "}
                 </h3>
               </div>
-              <div className="box-shadow-two p-2 rounded-[8px] mb-3">
+              <div className="box-shadow-two p-3 rounded-[8px] mb-4">
                 <h3 className="md:text-[18px] text-[14px] font-medium text-[#222222] text-center md:text-start">
                   Strong global and local presence with satisfied customers
                 </h3>
               </div>
-              <div className="box-shadow-two p-2 rounded-[8px] mb-3">
+              <div className="box-shadow-two p-3 rounded-[8px] mb-4">
                 <h3 className="md:text-[18px] text-[14px] font-medium text-[#222222] text-center md:text-start">
                   Scalable, secure, and innovative financial technology
                   solutions
                 </h3>
               </div>
-              <div className="box-shadow-two p-2 rounded-[8px] mb-3">
+              <div className="box-shadow-two p-3 rounded-[8px] mb-4">
                 <h3 className="md:text-[18px] text-[14px] font-medium text-[#222222] text-center md:text-start">
                   Expertise in digital payments, banking, and authentication
                 </h3>
               </div>
-              <div className="box-shadow-two p-2 rounded-[8px] mb-3">
+              <div className="box-shadow-two p-3 rounded-[8px] mb-4">
                 <h3 className="md:text-[18px] text-[14px] font-medium text-[#222222] text-center md:text-start">
                   Versatile PaaS & SaaS solutions tailored for enterprises and
                   financial institutions
                 </h3>
               </div>
-              <div className="box-shadow-two p-2 rounded-[8px] mb-3">
+              <div className="box-shadow-two p-3 rounded-[8px] mb-4">
                 <h3 className="md:text-[18px] text-[14px] font-medium text-[#222222] text-center md:text-start">
                   Official Odoo Partner for robust ERP and digital business
                   management solutions

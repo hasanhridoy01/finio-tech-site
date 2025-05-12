@@ -1,6 +1,5 @@
 import React from "react";
 import { Button } from "../ui/button";
-import { Book } from "lucide-react";
 import BookMeeting from "../home-components/BookMeeting";
 
 export default function Hero() {

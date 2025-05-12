@@ -1789,7 +1789,7 @@ export default function AboutTabs() {
         <TabsContent value="Frontend">
           <Card>
             <CardContent>
-              <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4">
+              <div className="grid md:grid-cols-12 grid-cols-2 items-center justify-center gap-4">
                 <div className="col-span-full md:col-span-2 about-card h-full">
                   <svg
                     width="65"
