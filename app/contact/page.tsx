@@ -21,7 +21,7 @@ export default function page() {
             Feel Free to Reach Out
           </h2>
           <h4 className="md:text-[18px] text-[14px] font-[500]">
-            We're here to help with any questions or requests.
+            We are here to help with any questions or requests.
           </h4>
           <div className="space-y-6 my-8">
             <h3 className="md:text-[18px] text-[14px] font-[400] flex items-center justify-start gap-4">
@@ -300,7 +300,7 @@ export default function page() {
               />
             </div>
             <h4 className="text-[12px] font-medium text-[#BC9797]">
-              We'll never share your email with anyone else.
+              Well never share your email with anyone else.
             </h4>
             <div className="">
               <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222]">
