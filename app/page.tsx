@@ -539,7 +539,7 @@ export default function Home() {
             </div>
           </div>
           <div className="md:col-span-1 col-span-full">
-            <img src="/col2.png" alt="" />
+            <img src="/Col2.png" alt="" />
           </div>
         </div>
       </section>
