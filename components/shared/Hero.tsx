@@ -1,5 +1,7 @@
 import React from "react";
 import { Button } from "../ui/button";
+import { Book } from "lucide-react";
+import BookMeeting from "../home-components/BookMeeting";
 
 export default function Hero() {
   return (
@@ -18,25 +20,7 @@ export default function Hero() {
           deliver you a launchable solution in a matter of 7 days.{" "}
         </h5>
         <div className="flex items-center gap-4 md:flex-row flex-col">
-          <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
-            Book A Meeting
-            <svg
-              width="24"
-              height="25"
-              viewBox="0 0 24 25"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M17.13 8.48002C20.96 10.69 20.96 14.31 17.13 16.52L14.04 18.3L10.95 20.08C7.13 22.29 4 20.48 4 16.06V12.5V8.94002C4 4.52002 7.13 2.71002 10.96 4.92002L13.21 6.22002"
-                stroke="white"
-                strokeWidth="1.5"
-                strokeMiterlimit="10"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </Button>
+          <BookMeeting />
           <Button className="md:w-[201px] w-[175px] md:h-[55px] h-[40px] secondary-button">
             Products & Services
             <svg

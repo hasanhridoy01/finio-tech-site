@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../ui/button";
+import BookMeeting from "../home-components/BookMeeting";
 
 export default function Footer() {
   return (
@@ -26,7 +27,7 @@ export default function Footer() {
                   business. Schedule a meeting and explore innovative FinTech
                   solutions tailored for you!
                 </h3>
-                <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
+                {/* <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
                   Set a Meeting
                   <svg
                     width="25"
@@ -60,7 +61,8 @@ export default function Footer() {
                       stroke-linejoin="round"
                     />
                   </svg>
-                </Button>
+                </Button> */}
+                <BookMeeting />
               </div>
             </div>
           </div>
@@ -91,7 +93,7 @@ export default function Footer() {
               business. Schedule a meeting and explore innovative FinTech
               solutions tailored for you!
             </h3>
-            <Button className="w-[140px] h-[40px] primary-button mt-1">
+            {/* <Button className="w-[140px] h-[40px] primary-button mt-1">
               Set a Meeting
               <svg
                 width="25"
@@ -125,7 +127,8 @@ export default function Footer() {
                   strokeLinejoin="round"
                 />
               </svg>
-            </Button>
+            </Button> */}
+            <BookMeeting />
           </div>
         </div>
 

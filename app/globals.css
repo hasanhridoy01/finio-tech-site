@@ -282,8 +282,9 @@ h5 {
   padding-bottom: 1px;
   padding-left: 24px;
   border-radius: 50px;
-  background: var(--ft-primary-Darker, #096b60);
-  box-shadow: 2px 2px 3px 0px #bfe4e0, -2px -2px 3px 0px #ffffff;
+  background: linear-gradient(312.48deg, #0c2e20 14.21%, #5bcb9f 85.33%);
+  box-shadow: -3px -3px 6px 0px rgba(255, 255, 255, 0.5);
+  box-shadow: 3px 3px 5px 0px rgba(191, 228, 224, 0.4);
   color: #ffffff;
   font-size: 12px;
   cursor: pointer;
@@ -483,9 +484,25 @@ h5 {
   gap: 10px;
   border-radius: 12px;
   padding: 12px;
-  background: #f0f0f3;
+  background: #fff;
   box-shadow: -1px -1px 3px 0px #fff,
     1.5px 1.5px 3px 0px rgba(174, 174, 192, 0.4);
   margin: 10px 0px;
   color: #555555;
+  border: 4px solid rgb(238, 234, 234);
+}
+
+.select {
+  gap: 10px;
+  border-radius: 8px;
+  border-radius: 12px;
+  background: #dcf8ef;
+  box-shadow: -2px -2px 4px 0px #fff inset, 2px 2px 4px 0px #badfdd inset;
+}
+.unselect {
+  gap: 10px;
+  border-radius: 8px;
+  border-radius: 12px;
+  background: linear-gradient(312.48deg, #096b44 14.21%, #5bcb9f 85.33%);
+  box-shadow: -2px -2px 4px 0px #fff inset, 2px 2px 4px 0px #badfdd inset;
 }
