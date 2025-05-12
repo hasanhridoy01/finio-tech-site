@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 export default function Footer() {
   return (
-    <div className="bg-[#D0E2DD] md:mt-96 mt-56">
+    <div className="bg-[#D0E2DD] md:mt-[500px] mt-56">
       {/* Schedule A Meeting Section */}
       <div className="container mx-auto md:pt-20 pt-10 pb-3 px-5 relative">
         {/* Background image for large screens */}

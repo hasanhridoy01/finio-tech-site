@@ -632,7 +632,7 @@ export default function page() {
         </div>
       </div>
 
-      <div className="md:my-40 my-20">
+      <div className="md:my-44 my-20">
         <div className="flex flex-col items-center justify-center mb-5">
           <h2 className="text-[11px] font-[900] text-[#222222] mb-2 text-center md:text-start">
             Our journey.
