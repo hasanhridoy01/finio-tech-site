@@ -61,11 +61,11 @@ export default function Hero() {
         </div>
       </div>
       <div className="relative w-full h-[500px] hidden md:flex justify-end">
-        <div className="absolute top-[-80] left-1/3 transform -translate-x-1/3 w-[267px] h-[267px] z-1 doller-image">
+        <div className="absolute top-[-80] right-[375px] transform -translate-x-1/3 w-[267px] h-[267px] z-1 doller-image">
           <img
             src="/doller.png"
             alt="Dollar Coin"
-            className="object-contain"
+            className=""
           />
         </div>
 

@@ -404,6 +404,7 @@ h5 {
     animation: doller-image 2s ease-in-out infinite;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .content-image {
     position: absolute;
@@ -503,4 +504,20 @@ h5 {
   border-radius: 12px;
   background: linear-gradient(312.48deg, #096b44 14.21%, #5bcb9f 85.33%);
   box-shadow: -2px -2px 4px 0px #fff inset, 2px 2px 4px 0px #badfdd inset;
+}
+
+
+/* services */
+.services-text-title{
+  font-weight: 400;
+  letter-spacing: 0%;
+  background: linear-gradient(180deg, #138b5b 0%, #096b60 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+
+  /* Apply text border using text-stroke */
+  -webkit-text-stroke: 1px #096b60;
+  text-stroke: 1px #096b60;
 }

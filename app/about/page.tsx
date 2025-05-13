@@ -21,7 +21,7 @@ export default function page() {
             <h2 className="font-[900] md:text-[24px] text-[16px] text-[#2B2B2B] mb-2">
               E-commerce & Retail Solutions
             </h2>
-            <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] text-justify mb-2">
+            <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222]  mb-2">
               <strong>FinioTech Ltd.</strong> is a leading FinTech company
               committed to revolutionizing digital financial services. With a
               strong global and local footprint, we provide innovative, secure,
@@ -31,7 +31,7 @@ export default function page() {
               commerce, ensuring seamless financial transactions across diverse
               industries.
             </h3>
-            <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] text-justify">
+            <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] ">
               As a PaaS (Platform as a Service) and SaaS (Software as a Service)
               provider, FinioTech Ltd. specializes in delivering robust
               financial and enterprise solutions tailored for scalability,
@@ -39,13 +39,13 @@ export default function page() {
               optimize operations, enhance digital engagement, and accelerate
               revenue growth.
             </h3>
-            <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] text-justify">
+            <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] ">
               We are also an official Odoo Partner, delivering comprehensive ERP
               and business management solutions to support digital
               transformation across various indust
             </h3>
           </div>
-          <div className="col-span-full md:col-span-1 pr-[38px] md:block hidden">
+          <div className="col-span-full md:col-span-1 px-[38px] md:block hidden">
             <img src="/right.png" alt="" />
           </div>
         </div>
