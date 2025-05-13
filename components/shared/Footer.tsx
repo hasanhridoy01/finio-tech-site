@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="footer-top-section md:flex hidden absolute top-[-280px] z-10 h-auto">
           <div className="relative w-full h-[569px] overflow-hidden rounded-[30px]">
             <div
-              className="absolute right-[-10px] top-[224px] transform -translate-y-1/2 h-[709px] w-[64%] bg-no-repeat bg-cover bg-contain"
+              className="absolute right-[-50px] top-[190px] transform -translate-y-1/2 h-[759px] w-[64%] bg-no-repeat bg-cover bg-contain"
               style={{ backgroundImage: "url('/fooer-top.png')" }}
             ></div>
 
@@ -146,7 +146,7 @@ export default function Footer() {
 
         {/* Contact Section */}
         <hr className="my-5 border border-[#8CBEB1]" />
-        <div className="grid md:grid-cols-12 grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-12 grid-cols-2 gap-4 md:my-24 my-14">
           <div className="col-span-full md:col-span-2">
             <h3 className="md:text-[22px] text-[16px] font-[700] font-roboto mb-10">About Us</h3>
 

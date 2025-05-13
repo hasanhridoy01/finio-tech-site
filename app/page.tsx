@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <section>
       <Hero />
-      <div className="container mx-auto my-20 md:mt-40 mt-5 md:px-0 px-5">
+      <div className="container mx-auto my-20 md:mt-40 mt-8 md:px-0 px-5">
         {/* Platform as a Service (PaaS) for Fintech Innovation */}
-        <section className="mt-40">
+        <section className="md:my-60 my-28">
           <div className="flex justify-end gap-3 mb-3 md:flex-row flex-col">
             <div className="flex gap-3">
               <div className="w-[22px] h-[43px] gap-[10px] px-[13px] py-[4px] rounded-[7px] bg-[#DCF8EF] shadow-[inset_2px_2px_4px_0px_#BADFDD,inset_-2px_-2px_4px_0px_#FFFFFF]"></div>
@@ -110,7 +110,7 @@ export default function Home() {
         </section>
 
         {/* A single platform for several uses */}
-        <section className="mb-10 mt-24">
+        <section className="md:my-60 my-28">
           <div className="mb-10 text-center">
             <h1 className="section-title-two md:leading-[55px] leading-8 mb-4 md:text-[48px] text-[24px]">
               A single platform for several uses
@@ -165,31 +165,31 @@ export default function Home() {
                 </svg>
                 Mobile Financial Services
               </h2>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 Core banking for digital-first institutions
               </h3>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 Electronic wallets
               </h3>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 Processing of payments
               </h3>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 Services for merchants
               </h3>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 P2P app for payments
               </h3>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 Solutions for payouts
               </h3>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 Real-time transfers and payments
               </h3>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 Open banking solutions that comply with PSD2
               </h3>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 Reconciliation and settlement
               </h3>
             </div>
@@ -221,37 +221,37 @@ export default function Home() {
                 </svg>
                 Venturing into fintech
               </h2>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 Closed-loop wallets
               </h3>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 Closed-loop cards & gift cards
               </h3>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 Loyalty and rewards
               </h3>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 In-game currencies
               </h3>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 Virtual & digital currencies
               </h3>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 Embedded finance
               </h3>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 Marketplace payment engine
               </h3>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 Payroll management
               </h3>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 General ledger
               </h3>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 Corporate FinOps
               </h3>
-              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-2 py-1 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-1.5">
+              <h3 className="md:text-[16px] text-[12px] font-[500] text-[#222222] px-3 py-2 border border-[#FFFFFF] bg-[#ffffff] rounded-[8px] mb-2">
                 Treasury orchestration
               </h3>
             </div>
@@ -260,7 +260,7 @@ export default function Home() {
       </div>
 
       {/* Mobile Financial Services Platform */}
-      <section className="mb-10 mt-24 relative w-full flex flex-col items-center justify-center px-5 md:px-0">
+      <section className="my-24 md:my-44 relative w-full flex flex-col items-center justify-center px-5 md:px-0">
         {/* Image only shown on md+ */}
         <img
           className="w-full h-auto md:block hidden"
@@ -358,7 +358,7 @@ export default function Home() {
       <CorporateClients />
 
       {/* Neobank Platform */}
-      <section className="mb-10 mt-24">
+      <section className="my-24 md:my-44">
         <div className="container mx-auto w-full grid grid-cols-1 md:grid-cols-2 items-center justify-between gap-5 md:px-0 px-5">
           <div className="md:col-span-1 col-span-full">
             <img src="/Col.png" alt="" />
@@ -453,7 +453,7 @@ export default function Home() {
       </section>
 
       {/* Loan Management Platform */}
-      <section className="mb-10 mt-24">
+      <section className="my-24 md:my-44">
         <div className="container mx-auto w-full grid grid-cols-1 md:grid-cols-2 items-center justify-between gap-5 md:px-0 px-5">
           <div className="md:col-span-1 col-span-full">
             <h2 className="text-[11px] font-[900] text-[#222222] mb-2 text-center md:text-start">
@@ -545,7 +545,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Our PaaS Solutions? */}
-      <section className="mb-10 mt-24">
+      <section className="my-24 md:my-44">
         <div className="container mx-auto w-full grid grid-cols-1 md:grid-cols-5 items-center justify-between gap-10 md:px-0 px-5">
           <div className="md:col-span-2 col-span-full">
             <img src="/Grafics.png" alt="" />
@@ -637,7 +637,7 @@ export default function Home() {
       </section>
 
       {/* key features across platforms */}
-      <section className="mb-10 mt-24">
+      <section className="my-24 md:my-72">
         <h1 className="section-title-two md:leading-[55px] leading-8 md:text-[48px] text-[24px] text-center md:mb-14 mb-7">
           key features across platforms
         </h1>
@@ -655,7 +655,7 @@ export default function Home() {
             <h3 className="md:text-[18px] text-[14px] font-[700] text-[#222222] text-center md:text-start mb-2">
               API-Driven Architecture
             </h3>
-            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
+            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-2">
               ✦ Comprehensive RESTful and GraphQL APIs for seamless integrations
             </h5>
             <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
@@ -667,10 +667,10 @@ export default function Home() {
             <h3 className="md:text-[18px] text-[14px] font-[700] text-[#222222] text-center md:text-start mb-2">
               Advanced Security
             </h3>
-            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
+            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-2">
               ✦ AES-256 Encryption for sensitive data storage
             </h5>
-            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
+            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-2">
               ✦ TLS 1.3 for secure communication.
             </h5>
             <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
@@ -681,10 +681,10 @@ export default function Home() {
             <h3 className="md:text-[18px] text-[14px] font-[700] text-[#222222] text-center md:text-start mb-2">
               AI and Machine Learning
             </h3>
-            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
+            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-2">
               ✦ Personalized recommendations and insights for users
             </h5>
-            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
+            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-2">
               ✦ Fraud detection and prevention systems
             </h5>
             <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
@@ -695,11 +695,11 @@ export default function Home() {
             <h3 className="md:text-[18px] text-[14px] font-[700] text-[#222222] text-center md:text-start mb-2">
               Real-Time Analytics
             </h3>
-            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
+            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-2">
               ✦ Dashboard with actionable insights into transactions, user
               engagement, and operational performance
             </h5>
-            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
+            <h5 className="md:text-[16px] text-[14px] font-[500] text-[#222222] text-center md:text-start mb-2">
               ✦ Customizable reports for compliance and business strategy
             </h5>
           </div>
@@ -707,7 +707,7 @@ export default function Home() {
             <h3 className="md:text-[18px] text-[12px] font-[700] text-[#222222] text-center md:text-start mb-2">
               Multi-Language & Multi-Currency Support
             </h3>
-            <h5 className="md:text-[16px] text-[12px] font-[500] text-[#222222] text-center md:text-start mb-1.5">
+            <h5 className="md:text-[16px] text-[12px] font-[500] text-[#222222] text-center md:text-start mb-2">
               ✦ Expand your reach to global markets with built-in localization
               tools
             </h5>

@@ -59,7 +59,7 @@ export default function BookMeeting() {
           </DialogHeader>
           <div
             className="grid md:grid-cols-2 grid-cols-1 gap-4 py-4 overflow-y-auto"
-            style={{ height: "calc(100vh - 430px)" }}
+            style={{ height: "calc(100vh - 400px)" }}
           >
             <div className="col-span-full md:col-span-1">
               <div className="">
@@ -73,7 +73,8 @@ export default function BookMeeting() {
                 />
               </div>
             </div>
-            <div className="col-span-full md:col-span-1">
+
+            {/* <div className="col-span-full md:col-span-1">
               <div className="">
                 <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222]">
                   Country
@@ -93,7 +94,8 @@ export default function BookMeeting() {
                   <option value="france">France</option>
                 </select>
               </div>
-            </div>
+            </div> */}
+
             <div className="col-span-full md:col-span-1">
               <div className="">
                 <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222]">
@@ -118,30 +120,36 @@ export default function BookMeeting() {
                 />
               </div>
             </div>
+
             <div className="col-span-full md:col-span-1">
-              <div className="">
-                <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222]">
-                  Email
-                </h3>
-                <input
-                  className="contact-input-style w-full"
-                  type="text"
-                  placeholder="Enter Email Address"
-                />
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="col-span-full md:col-span-1">
+                  <div className="">
+                    <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222]">
+                      Start Time
+                    </h3>
+                    <input
+                      className="contact-input-style w-full"
+                      type="time"
+                      placeholder="Enter Email Address"
+                    />
+                  </div>
+                </div>
+                <div className="col-span-full md:col-span-1">
+                  <div className="">
+                    <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222]">
+                      End Time
+                    </h3>
+                    <input
+                      className="contact-input-style w-full"
+                      type="time"
+                      placeholder="Enter Email Address"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="col-span-full md:col-span-1">
-              <div className="">
-                <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222]">
-                  Email
-                </h3>
-                <input
-                  className="contact-input-style w-full"
-                  type="text"
-                  placeholder="Enter Email Address"
-                />
-              </div>
-            </div>
+
             <div className="col-span-full md:col-span-2">
               <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222]">
                 Select Meeting Day
@@ -168,7 +176,7 @@ export default function BookMeeting() {
             </div>
           </div>
           <DialogFooter>
-            <Button type="submit" className="py-2 px-6">
+            <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
               Save changes
             </Button>
           </DialogFooter>
