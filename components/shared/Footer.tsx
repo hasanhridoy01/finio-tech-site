@@ -224,7 +224,7 @@ export default function Footer() {
                 support@finiotech.com
               </h4>
               <div className="flex gap-3 items-center mt-6">
-                <button>
+                <a href="https://www.instagram.com/finiotech/" target="_blank">
                   <svg
                     width="25"
                     height="24"
@@ -239,9 +239,9 @@ export default function Footer() {
                       fill="#222222"
                     />
                   </svg>
-                </button>
+                </a>
 
-                <button>
+                <a href="https://www.facebook.com/FinioTech/" target="_blank">
                   <svg
                     width="25"
                     height="24"
@@ -256,8 +256,9 @@ export default function Footer() {
                       fill="#222222"
                     />
                   </svg>
-                </button>
-                <button>
+                </a>
+                
+                <a href="https://x.com/finiotech" target="_blank">
                   <svg
                     width="25"
                     height="24"
@@ -280,8 +281,9 @@ export default function Footer() {
                       fill="#BDD4CE"
                     />
                   </svg>
-                </button>
-                <button>
+                </a>
+
+                <a href="https://www.linkedin.com/company/finiotech/" target="_blank">
                   <svg
                     width="25"
                     height="24"
@@ -318,8 +320,9 @@ export default function Footer() {
                       </clipPath>
                     </defs>
                   </svg>
-                </button>
-                <button>
+                </a>
+                
+                <a href="https://www.youtube.com/channel/UC96kZxDkqid7Xd6nyRsEykw" target="_blank">
                   <svg
                     width="25"
                     height="24"
@@ -336,7 +339,7 @@ export default function Footer() {
                       fill="#BDD4CE"
                     />
                   </svg>
-                </button>
+                </a>
               </div>
             </div>
           </div>
