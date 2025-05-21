@@ -4,7 +4,7 @@ import BookMeeting from "../home-components/BookMeeting";
 
 export default function Hero() {
   return (
-    <div className="grid md:grid-cols-2 grid-cols-1 mb-10 md:mt-64 mt-32">
+    <div className="grid md:grid-cols-2 grid-cols-1 mb-10 md:mt-64 mt-32 max-w-[1920px] mx-auto">
       <div className="py-4 md:px-28 px-5 md:text-start text-center w-full">
         <h3 className="md:text-[32px] text-[16px] font-[400] mb-1">
           Emphasizes growth and FinTech focus with AI.
@@ -62,11 +62,8 @@ export default function Hero() {
       </div>
       <div className="relative w-full h-[500px] hidden md:flex justify-end">
         <div className="absolute top-[-80] right-[375px] transform -translate-x-1/3 w-[267px] h-[267px] z-1 doller-image">
-          <img
-            src="/doller.png"
-            alt="Dollar Coin"
-            className=""
-          />
+        {/* text  */}
+          <img src="/doller.png" alt="Dollar Coin" className="" />
         </div>
 
         <img

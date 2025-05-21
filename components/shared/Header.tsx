@@ -6,6 +6,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logo from "@/public/logo.png";
 
 const navLinks = [
   { label: "Home", path: "/" },
@@ -44,12 +45,13 @@ export default function Header() {
         <div className="flex items-center gap-2">
           <Link href="/">
             <Image
-              src="/logo.png"
+              src={logo}
               alt="Finiotech Logo"
               width={163}
               height={36}
               priority
             />
+            {/* <img src="/logo.png" alt="" className="max-w-[163px]" /> */}
           </Link>
         </div>
 
@@ -74,7 +76,10 @@ export default function Header() {
         </nav>
 
         {/* Mobile Hamburger */}
-        <button onClick={toggleMenu} className="md:hidden text-primary cursor-pointer">
+        <button
+          onClick={toggleMenu}
+          className="md:hidden text-primary cursor-pointer"
+        >
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>

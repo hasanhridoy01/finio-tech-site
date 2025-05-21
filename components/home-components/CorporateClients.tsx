@@ -1,4 +1,9 @@
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabsHome";
+import {
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+} from "@/components/ui/tabsHome";
 import CorporateCarousel from "./CorporateCarousel";
 import { Button } from "../ui/button";
 
@@ -128,9 +133,7 @@ export default function CorporateClients() {
         </Tabs>
       </div>
       <div className="flex items-center justify-center gap-4 md:flex-row flex-col my-10">
-        <Button
-          className="md:w-[201px] w-[175px] md:h-[55px] h-[40px] secondary-button"
-        >
+        <Button className="md:w-[201px] w-[175px] md:h-[55px] h-[40px] secondary-button">
           Quick Demo
           <svg
             width="25"
@@ -142,17 +145,14 @@ export default function CorporateClients() {
             <path
               d="M17.4359 8.4799C21.2659 10.6899 21.2659 14.3099 17.4359 16.5199L14.3459 18.2999L11.2559 20.0799C7.43591 22.2899 4.30591 20.4799 4.30591 16.0599V12.4999V8.93989C4.30591 4.51989 7.43591 2.7099 11.2659 4.9199L13.5159 6.2199"
               stroke="#138B7D"
-              stroke-width="1.5"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeMiterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </Button>
-        <Button
-          
-          className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button"
-        >
+        <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
           Find More Details
           <svg
             width="25"
@@ -164,26 +164,26 @@ export default function CorporateClients() {
             <path
               d="M14.7359 6.43018L20.8059 12.5002L14.7359 18.5702"
               stroke="white"
-              stroke-width="1.5"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeMiterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M11.3159 12.5H20.6359"
               stroke="white"
-              stroke-width="1.5"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeMiterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M3.80591 12.5H7.27591"
               stroke="white"
-              stroke-width="1.5"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeMiterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </Button>

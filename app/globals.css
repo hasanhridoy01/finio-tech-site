@@ -144,6 +144,8 @@
 /* globals.css */
 body {
   font-weight: 500;
+  background-image: url("/bg.png");
+  background-repeat: repeat;
 }
 
 h1,
@@ -282,7 +284,7 @@ h5 {
   padding-bottom: 1px;
   padding-left: 24px;
   border-radius: 50px;
-  background: linear-gradient(312.48deg, #0c2e20 14.21%, #5bcb9f 85.33%);
+  background: linear-gradient(312.48deg, #5bcb9f 14.21%, #5bcb9f 85.33%);
   box-shadow: -3px -3px 6px 0px rgba(255, 255, 255, 0.5);
   box-shadow: 3px 3px 5px 0px rgba(191, 228, 224, 0.4);
   color: #ffffff;
@@ -421,7 +423,7 @@ h5 {
 }
 
 /* Footer-Section */
-.footer-top-section {
+/* .footer-top-section {
   width: 100%;
   border-radius: 50px;
   border-width: 1px;
@@ -429,6 +431,17 @@ h5 {
   border: 1px solid var(--Surface-Forground-Background, #ffffff);
   box-shadow: -10px -10px 20px 0px #b1ebe1 inset;
   box-shadow: 10px 15px 20px 0px #a4ccbe inset;
+  overflow: hidden;
+} */
+
+.footer-top-section {
+  width: 100%;
+  border-radius: 50px;
+  border-width: 1px;
+  background: linear-gradient(89.28deg, #dbf9f2 -1.22%, #d2fdf9 59.57%);
+  border: 1px solid var(--Surface-Forground-Background, #ffffff);
+  box-shadow: -10px -10px 20px 0px #67c5a6 inset,
+    10px 15px 20px 0px #a4ccbe inset;
   overflow: hidden;
 }
 .footer-top-image {
@@ -506,9 +519,8 @@ h5 {
   box-shadow: -2px -2px 4px 0px #fff inset, 2px 2px 4px 0px #badfdd inset;
 }
 
-
 /* services */
-.services-text-title{
+.services-text-title {
   font-weight: 400;
   letter-spacing: 0%;
   background: linear-gradient(180deg, #138b5b 0%, #096b60 100%);
@@ -520,4 +532,59 @@ h5 {
   /* Apply text border using text-stroke */
   -webkit-text-stroke: 1px #096b60;
   text-stroke: 1px #096b60;
+}
+
+/* working on carusel  */
+
+.carusel {
+  /* background-color: #096b44; */
+  background-image: url("/c_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+.carousel-box {
+  @apply p-12 bg-[#E9FAF6];
+  box-shadow: -16px 0px 23px 12px rgba(153, 153, 153, 0.534) inset;
+  border-radius: 0px 46px 46px 0px;
+  /* box-shadow: -2px -2px 4px 0px #fff inset, 2px 2px 4px 0px #badfdd inset; */
+}
+.carousel-box-right {
+  @apply p-12 bg-[#E9FAF6];
+  box-shadow: 8px 0px 23px 12px rgba(153, 153, 153, 0.75) inset;
+  border-radius: 46px 0px 0px 46px;
+}
+.prartners_wrapper {
+  position: relative;
+  background-image: url(/corner2.png), url(/corner.png);
+  background-repeat: no-repeat;
+  background-position: right bottom, left top;
+}
+.prartners_right {
+  /* padding-left: 50px; */
+}
+.prartners_right button {
+  display: none !important; background-color: red
+}
+.prartners_left {
+  @apply relative;
+  z-index: 999;
+}
+.prartners_left::before {
+  @apply p-24;
+  content: "";
+  position: absolute;
+  /* border: 1px dashed hsl(0, 0%, 66.7%); */
+  right: -150px;
+  top: 100px;
+  width: 300px;
+  height: 250%;
+  z-index: -1;
+  background-image: url(/mask2.png);
+  background-size: contain;
+  background-position: 50px 140px;
+  background-repeat: no-repeat;
+  scale: 2;
+
+  /* ... */
 }

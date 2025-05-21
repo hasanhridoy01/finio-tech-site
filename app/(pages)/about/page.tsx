@@ -15,9 +15,9 @@ export default function page() {
           are here for you.
         </h3>
       </div>
-      <div className="about-card-box md:rounded-tr-[500px] rounded-tr-[42px]  md:rounded-br-[500px] rounded-br-[42px] my-14 md:py-[74px] py-2 md:pl-[80px] pl-2 md:px-0 px-5">
-        <div className="grid md:grid-cols-3 grid-cols-1 gap-8 items-center">
-          <div className="col-span-full md:col-span-2 md:px-0 px-5 md:py-0 py-5">
+      <div className="about-card-box md:rounded-tr-[500px] rounded-tr-[42px]  md:rounded-br-[500px] rounded-br-[42px] my-14 md:py-[54px] py-2 md:pl-[80px] pl-2 md:px-0 px-5">
+        <div className="grid md:grid-cols-7 grid-cols-1 gap-8 items-center">
+          <div className="col-span-full md:col-span-4 md:px-0 px-5 md:py-0 py-5">
             <h2 className="font-[900] md:text-[24px] text-[16px] text-[#2B2B2B] mb-2">
               E-commerce & Retail Solutions
             </h2>
@@ -45,7 +45,7 @@ export default function page() {
               transformation across various indust
             </h3>
           </div>
-          <div className="col-span-full md:col-span-1 px-[38px] md:block hidden">
+          <div className="col-span-full md:col-span-3 px-[38px] md:block hidden">
             <img src="/right.png" alt="" />
           </div>
         </div>
@@ -589,26 +589,26 @@ export default function page() {
                   <path
                     d="M14.4297 6.42993L20.4997 12.4999L14.4297 18.5699"
                     stroke="white"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M11.0098 12.5H20.3298"
                     stroke="white"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M3.5 12.5H6.97"
                     stroke="white"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </Button>

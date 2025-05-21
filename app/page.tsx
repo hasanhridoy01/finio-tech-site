@@ -1,4 +1,7 @@
+import CustomCarusel from "@/components/CustomCarusel";
+import Companies from "@/components/home-components/Companies";
 import CorporateClients from "@/components/home-components/CorporateClients";
+import ProudPartner from "@/components/home-components/ProudPartner";
 import Hero from "@/components/shared/Hero";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
@@ -40,7 +43,7 @@ export default function Home() {
             <div className="relative md:block hidden col-span-2">
               <img
                 src="/center.png"
-                alt="Finiotech Logo"
+                alt="Finiotech"
                 className="content-image"
               />
             </div>
@@ -65,7 +68,7 @@ export default function Home() {
               <div className="mt-5 flex md:items-center items-start md:flex-row flex-col md:gap-5 gap-3 justify-between">
                 <Image
                   src="/Happy-Users.png"
-                  alt="Finiotech Logo"
+                  alt="Finiotech"
                   width={175}
                   height={48}
                 />
@@ -81,26 +84,26 @@ export default function Home() {
                     <path
                       d="M14.7359 5.92993L20.8059 11.9999L14.7359 18.0699"
                       stroke="#138B7D"
-                      stroke-width="1.5"
-                      stroke-miterlimit="10"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="1.5"
+                      strokeMiterlimit="10"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M11.3159 12H20.6359"
                       stroke="#138B7D"
-                      stroke-width="1.5"
-                      stroke-miterlimit="10"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="1.5"
+                      strokeMiterlimit="10"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M3.80591 12H7.27591"
                       stroke="#138B7D"
-                      stroke-width="1.5"
-                      stroke-miterlimit="10"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="1.5"
+                      strokeMiterlimit="10"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 </Button>
@@ -134,9 +137,9 @@ export default function Home() {
                     d="M22.3059 19V22H2.30591V19C2.30591 18.7348 2.41128 18.4804 2.59882 18.2929C2.78635 18.1054 3.04069 18 3.30591 18H21.3059C21.5711 18 21.8255 18.1054 22.013 18.2929C22.2005 18.4804 22.3059 18.7348 22.3059 19Z"
                     fill="#138B7D"
                     stroke="#45B4A2"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path d="M8.30591 11H4.30591V18H8.30591V11Z" fill="#45B4A2" />
                   <path d="M12.3059 11H8.30591V18H12.3059V11Z" fill="#B0FFED" />
@@ -259,100 +262,7 @@ export default function Home() {
         </section>
       </div>
 
-      {/* Mobile Financial Services Platform */}
-      <section className="my-24 md:my-44 relative w-full flex flex-col items-center justify-center px-5 md:px-0">
-        {/* Image only shown on md+ */}
-        <img
-          className="w-full h-auto md:block hidden"
-          src="/Financial.png"
-          alt="Financial"
-        />
-
-        {/* Content wrapper */}
-        <div className="md:absolute md:top-[50%] md:left-[66%] md:transform md:-translate-x-1/2 md:-translate-y-1/2 w-full max-w-[550px] min-h-[500px]">
-          <h2 className="text-[11px] font-[900] text-[#222222] mb-2 text-center md:text-start">
-            Features
-          </h2>
-          <h1 className="section-title-two md:leading-[55px] leading-8 md:text-[48px] text-[24px] mb-2 text-center md:text-start">
-            Mobile Financial Services Platform
-          </h1>
-          <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
-            Deliver seamless digital payment experiences with our robust,
-            secure, and scalable eWallet solutions
-          </h3>
-
-          {/* Features List */}
-          <ul className="list-disc pl-5 mt-2.5 ml-3 text-[#222222] text-[12px] md:text-[18px] font-[500]">
-            <li className="mb-1">Single or Multi-currency options</li>
-            <li className="mb-1">Cross-border payments</li>
-            <li className="mb-1">
-              QR code and NFC-enabled contactless payments
-            </li>
-            <li className="mb-1">Peer-to-peer (P2P) transfers</li>
-            <li className="mb-1">
-              Loyalty rewards, cashback, and coupon integration
-            </li>
-          </ul>
-
-          {/* Buttons */}
-          <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-5">
-            <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button">
-              Quick Demo
-              <svg
-                width="25"
-                height="25"
-                viewBox="0 0 25 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M17.4359 8.4799C21.2659 10.6899 21.2659 14.3099 17.4359 16.5199L14.3459 18.2999L11.2559 20.0799C7.43591 22.2899 4.30591 20.4799 4.30591 16.0599V12.4999V8.93989C4.30591 4.51989 7.43591 2.7099 11.2659 4.9199L13.5159 6.2199"
-                  stroke="#138B7D"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </Button>
-            <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
-              Find More Details
-              <svg
-                width="25"
-                height="25"
-                viewBox="0 0 25 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M14.7359 6.43018L20.8059 12.5002L14.7359 18.5702"
-                  stroke="white"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M11.3159 12.5H20.6359"
-                  stroke="white"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M3.80591 12.5H7.27591"
-                  stroke="white"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </Button>
-          </div>
-        </div>
-      </section>
+      <CustomCarusel />
 
       {/* For Individual & corporate clients */}
       <CorporateClients />
@@ -405,10 +315,10 @@ export default function Home() {
                   <path
                     d="M17.4359 8.4799C21.2659 10.6899 21.2659 14.3099 17.4359 16.5199L14.3459 18.2999L11.2559 20.0799C7.43591 22.2899 4.30591 20.4799 4.30591 16.0599V12.4999V8.93989C4.30591 4.51989 7.43591 2.7099 11.2659 4.9199L13.5159 6.2199"
                     stroke="#138B7D"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </Button>
@@ -424,26 +334,26 @@ export default function Home() {
                   <path
                     d="M14.7359 6.43018L20.8059 12.5002L14.7359 18.5702"
                     stroke="white"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M11.3159 12.5H20.6359"
                     stroke="white"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M3.80591 12.5H7.27591"
                     stroke="white"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </Button>
@@ -494,10 +404,10 @@ export default function Home() {
                   <path
                     d="M17.4359 8.4799C21.2659 10.6899 21.2659 14.3099 17.4359 16.5199L14.3459 18.2999L11.2559 20.0799C7.43591 22.2899 4.30591 20.4799 4.30591 16.0599V12.4999V8.93989C4.30591 4.51989 7.43591 2.7099 11.2659 4.9199L13.5159 6.2199"
                     stroke="#138B7D"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </Button>
@@ -513,26 +423,26 @@ export default function Home() {
                   <path
                     d="M14.7359 6.43018L20.8059 12.5002L14.7359 18.5702"
                     stroke="white"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M11.3159 12.5H20.6359"
                     stroke="white"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M3.80591 12.5H7.27591"
                     stroke="white"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </Button>
@@ -543,6 +453,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <ProudPartner />
 
       {/* Why Choose Our PaaS Solutions? */}
       <section className="my-24 md:my-44">
@@ -589,10 +500,10 @@ export default function Home() {
                   <path
                     d="M17.4359 8.4799C21.2659 10.6899 21.2659 14.3099 17.4359 16.5199L14.3459 18.2999L11.2559 20.0799C7.43591 22.2899 4.30591 20.4799 4.30591 16.0599V12.4999V8.93989C4.30591 4.51989 7.43591 2.7099 11.2659 4.9199L13.5159 6.2199"
                     stroke="#138B7D"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </Button>
@@ -608,26 +519,26 @@ export default function Home() {
                   <path
                     d="M14.7359 6.43018L20.8059 12.5002L14.7359 18.5702"
                     stroke="white"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M11.3159 12.5H20.6359"
                     stroke="white"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M3.80591 12.5H7.27591"
                     stroke="white"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </Button>
@@ -727,31 +638,32 @@ export default function Home() {
               <path
                 d="M14.7359 6.43018L20.8059 12.5002L14.7359 18.5702"
                 stroke="white"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="1.5"
+                strokeMiterlimit="10"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
               <path
                 d="M11.3159 12.5H20.6359"
                 stroke="white"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="1.5"
+                strokeMiterlimit="10"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
               <path
                 d="M3.80591 12.5H7.27591"
                 stroke="white"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="1.5"
+                strokeMiterlimit="10"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </Button>
         </div>
       </section>
+      <Companies />
     </section>
   );
 }
