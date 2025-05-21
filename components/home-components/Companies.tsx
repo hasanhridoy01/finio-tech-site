@@ -45,7 +45,8 @@ const Companies = () => {
             Want to see how we can help your business?
           </h3>
 
-          <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button mt-6">
+         <div className="flex justify-center md:justify-start">
+           <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button mt-6">
             Lets Tak
             <svg
               width="25"
@@ -80,6 +81,7 @@ const Companies = () => {
               />
             </svg>
           </Button>
+         </div>
         </div>
       </div>
       <div className="md:col-span-2 prartners_right">

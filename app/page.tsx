@@ -663,7 +663,9 @@ export default function Home() {
           </Button>
         </div>
       </section>
-      <Companies />
+      <div className="">
+        <Companies />
+      </div>
     </section>
   );
 }

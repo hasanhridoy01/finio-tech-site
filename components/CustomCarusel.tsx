@@ -96,7 +96,7 @@ export default function CustomCarusel() {
       <div className="grid grid-cols-1 md:grid-cols-6 gap-6">
         {/* Top Carousel - 3 items at a time */}
         <div
-          className="w-full overflow-hidden carousel-box md:col-span-3"
+          className="w-full overflow-hidden carousel-box md:col-span-3 hidden md:block"
           ref={topEmblaRef}
         >
           <div className="flex h-full">
@@ -203,7 +203,7 @@ export default function CustomCarusel() {
 
         {/* Bottom Carousel - 1 item + half of the next item */}
         <div
-          className="w-full overflow-hidden carousel-box-right"
+          className="w-full overflow-hidden carousel-box-right hidden md:block"
           ref={bottomEmblaRef}
         >
           <div className="flex h-full">

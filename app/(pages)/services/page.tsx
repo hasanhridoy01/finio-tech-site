@@ -3,9 +3,84 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
+import ServiceItem from "./ServiceItem";
 
 export default function Services() {
   const router = useRouter();
+
+  const items = [
+    {
+      id: 1,
+      title: "Enterprise Solutions (SaaS)",
+      image: "/service/one.png",
+      discription:
+        "FinioTech delivers Enterprise & Communication Solutions through scalable SaaS Solutions, enabling businesses to optimize operations, enhance customer interactions, and drive efficiency. Our solutions focus on seamless communication, business automation, and customer relationship management.",
+    },
+    {
+      id: 2,
+      title: "Common API Infrastructure",
+      image: "/service/two.png",
+      discription:
+        "At Finiotech, we accelerate digital transformation through a unified Common API Infrastructure that connects your financial, retail, and logistics ecosystems with unmatched agility. Our API platform offers a standardized gateway for integrating third-party services—ranging from KYC, payments, and credit scoring to ERP...",
+    },
+    {
+      id: 3,
+      title: "Common API for Utility Bill Collection",
+      image: "/service/three.png",
+      discription:
+        "At Finiotech, we simplify nationwide bill payments with our Common API Platform for Utility Bill Collection for DESCO, WASA, or PGCB. Designed to unify multiple service providers—electricity, gas, water, internet, and telecom—into a single, secure interface, our API empowers banks, fintechs, and payment apps to offer...",
+    },
+    {
+      id: 4,
+      title: "TradeX ERP",
+      image: "/service/four.png",
+      discription:
+        "Gist: All-in-one ERP designed to streamline operations, boost efficiency, and drive growth, with a modular design that allows businesses to integrate only the features they need. TradeX ERP is an all-in-one business management software, Powered by Odoo- that helps organizations streamline operations... ",
+    },
+    {
+      id: 5,
+      title: "Salesforce",
+      image: "/service/five.png",
+      discription:
+        "Gist: Salesforce services designed to streamline customer relationship management (CRM). We specialize in Salesforce implementation, customization, and integration, optimizing sales, marketing, and customer service operations to improve efficiency, enhance customer experiences, and drive growth...",
+    },
+    {
+      id: 6,
+      title: "HireIQ- Augment your workforce intelligently",
+      image: "/service/six.png",
+      discription:
+        "Gist: Intelligent recruitment solution that streamlines hiring by connecting with top talent quickly using smart candidate matching, data analytics, and automated screening to enhance accuracy and reduce time-to-hire. FinioTech Ltd. offers HireIQ, a cutting-edge solution designed to str...",
+    },
+    {
+      id: 7,
+      title: "Bulk SMS (A2P SMS Service)",
+      image: "/service/seven.png",
+      discription:
+        "Gist: A bulk SMS solution enabling seamless communication, with high deliverability, real-time reporting, and customizable messaging for businesses to reach large audiences efficiently.FinioTech Ltd. offers a powerful, secure, and scalable Bulk SMS platform designed to help businesses send promotional, transacti...",
+    },
+    {
+      id: 8,
+      title: "Top – Up",
+      image: "/service/eight.png",
+      discription:
+        "Gist: A digital mobile top-up solution enabling seamless airtime, data, and DTH recharges, with real-time, secure transactions through integration with telecom operators. FinioTech Ltd. enables businesses to offer instant, secure, and seamless mobile top-up services for prepaid airtime, data, and DT...",
+    },
+    {
+      id: 9,
+      title: "Call Center Service (AI-BASED)",
+      image: "/service/nine.png",
+      discription:
+        "Gist: Next-generation Call Center Services offering fast, intelligent, and personalized support with scalable, tech-driven solutions to enhance customer interactions and improve efficiency. At FinioTech, we offer next-generation Call Center Services that deliver fast, intelligent, and personalized customer support. Power",
+    },
+    {
+      id: 10,
+      title:
+        "Customized Campaign (Manufacturer, Retail, Distributor & Consumer-based)",
+      image: "/service/ten.png",
+      discription:
+        "Gist: Data-driven customized campaign services designed to engage your audience with personalized, targeted messages across multiple channels, boosting engagement and conversions. FinioTech Ltd. offers powerful, data-driven customized campaign...",
+    },
+  ];
 
   const handleDetailsClick = (id: number) => {
     router.push(`/services/${id}`);
@@ -24,370 +99,15 @@ export default function Services() {
       </div>
       {/* section-content */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        <div className="md:col-span-1 col-span-full box-shadow md:px-12 md:py-10 py-8 px-8 md:h-full h-auto">
-          <img src="/Frame 1000011454.png" alt="" />
-          <div className="my-7">
-            <h2 className="font-[900] md:text-[24px] text-[16px] text-[#2B2B2B]">
-              Digital Banking & Financial Solutions
-            </h2>
-            <ul className="list-disc pl-5 mt-2.5 ml-3 text-[#222222] text-[14px] md:text-[18px] font-[500] font-poppins">
-              <li className="text-[#555555] md:text-[18px] font-[500] text-[14px] mb-2 md:mb-3">
-                FIB.iq – A robust banking platform offering secure and seamless
-                financial services.
-              </li>
-              <li className="text-[#555555] md:text-[18px] font-[500] text-[14px] mb-2 md:mb-3">
-                Banking Loan Management – An integrated system for loan
-                origination, credit scoring, and repayment tracking.
-              </li>
-            </ul>
-            {/* Buttons */}
-            <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-auto pt-5">
-              <Button
-                onClick={() => handleDetailsClick(1)}
-                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button"
-              >
-                More Details
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M14.4301 5.93005L20.5001 12.0001L14.4301 18.0701"
-                    stroke="#138B7D"
-                    strokeWidth="1.5"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M11.01 12H20.33"
-                    stroke="#138B7D"
-                    strokeWidth="1.5"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M3.5 12H6.97"
-                    stroke="#138B7D"
-                    strokeWidth="1.5"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </Button>
-            </div>
-          </div>
-        </div>
-        <div className="md:col-span-1 col-span-full box-shadow md:px-12 md:py-10 py-8 px-8 md:h-full h-auto">
-          <img src="/Frame 1000011454 (1).png" alt="" />
-          <div className="my-7">
-            <h2 className="font-[900] md:text-[24px] text-[16px] text-[#2B2B2B]">
-              Payment Processing & Wallet Solutions
-            </h2>
-            <ul className="list-disc pl-5 mt-2.5 ml-3 text-[#222222] text-[14px] md:text-[18px] font-[500] font-poppins">
-              <li className="text-[#555555] md:text-[18px] font-[500] text-[14px] mb-2 md:mb-3">
-                STPay – A comprehensive payment gateway for businesses and
-                consumers.
-              </li>
-              <li className="text-[#555555] md:text-[18px] font-[500] text-[14px] mb-2 md:mb-3">
-                Fast-Pay.iq – A seamless digital wallet solution for effortless
-                transactions.
-              </li>
-              <li className="text-[#555555] md:text-[18px] font-[500] text-[14px] mb-2 md:mb-3">
-                GlobPay – A global payment solution connecting businesses with
-                cross-border transactions.
-              </li>
-            </ul>
-            {/* Buttons */}
-            <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-auto pt-5">
-              <Button
-                onClick={() => handleDetailsClick(2)}
-                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button"
-              >
-                More Details
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M14.4301 5.93005L20.5001 12.0001L14.4301 18.0701"
-                    stroke="#138B7D"
-                    strokeWidth="1.5"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M11.01 12H20.33"
-                    stroke="#138B7D"
-                    strokeWidth="1.5"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M3.5 12H6.97"
-                    stroke="#138B7D"
-                    strokeWidth="1.5"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </Button>
-            </div>
-          </div>
-        </div>
-        <div className="md:col-span-1 col-span-full box-shadow md:px-12 md:py-10 py-8 px-8 md:h-full h-auto">
-          <img src="/Frame 1000011454 (2).png" alt="" />
-          <div className="my-7">
-            <h2 className="font-[900] md:text-[24px] text-[16px] text-[#2B2B2B]">
-              Digital Identity & Authentication
-            </h2>
-            <ul className="list-disc pl-5 mt-2.5 ml-3 text-[#222222] text-[14px] md:text-[18px] font-[500] font-poppins">
-              <li className="text-[#555555] md:text-[18px] font-[500] text-[14px] mb-2 md:mb-3">
-                VerifyMe Global Crypto – A secure identity verification solution
-                for digital assets and blockchain transactions.
-              </li>
-              <li className="text-[#555555] md:text-[18px] font-[500] text-[14px] mb-2 md:mb-3">
-                Fast-Pay.iq – A seamless digital wallet solution for effortless
-                transactions.
-              </li>
-              <li className="text-[#555555] md:text-[18px] font-[500] text-[14px] mb-2 md:mb-3">
-                Digital Authentication (KYIC/KYB) – AI-powered Know Your
-                Individual Customer (KYIC) and Know Your Business (KYB)
-                solutions.
-              </li>
-            </ul>
-            {/* Buttons */}
-            <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-auto pt-5">
-              <Button
-                onClick={() => handleDetailsClick(3)}
-                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button"
-              >
-                More Details
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M14.4301 5.93005L20.5001 12.0001L14.4301 18.0701"
-                    stroke="#138B7D"
-                    strokeWidth="1.5"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M11.01 12H20.33"
-                    stroke="#138B7D"
-                    strokeWidth="1.5"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M3.5 12H6.97"
-                    stroke="#138B7D"
-                    strokeWidth="1.5"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </Button>
-            </div>
-          </div>
-        </div>
-
-        <div className="md:col-span-1 col-span-full box-shadow md:px-12 md:py-10 py-8 px-8 md:h-full h-auto">
-          <img src="/undraw_contact-us_kcoa 1.png" alt="" />
-          <div className="my-7">
-            <h2 className="font-[900] md:text-[24px] text-[16px] text-[#2B2B2B]">
-              Enterprise & Communication Solutions (SaaS)
-            </h2>
-            <ul className="list-disc pl-5 mt-2.5 ml-3 text-[#222222] text-[12px] md:text-[18px] font-[500] font-poppins">
-              <li className="text-[#555555] md:text-[18px] font-[500] text-[14px] mb-2 md:mb-3">
-                Call Center Solutions – Advanced cloud-based call center
-                platforms for enhanced customer interactions.
-              </li>
-              <li className="text-[#555555] md:text-[18px] font-[500] text-[14px] mb-2 md:mb-3">
-                ERP Solutions (Odoo Partner) – Comprehensive enterprise resource
-                planning for business automation and efficiency.
-              </li>
-            </ul>
-            {/* Buttons */}
-            <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-auto pt-5">
-              <Button
-                onClick={() => handleDetailsClick(4)}
-                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button"
-              >
-                More Details
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M14.4301 5.93005L20.5001 12.0001L14.4301 18.0701"
-                    stroke="#138B7D"
-                    strokeWidth="1.5"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M11.01 12H20.33"
-                    stroke="#138B7D"
-                    strokeWidth="1.5"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M3.5 12H6.97"
-                    stroke="#138B7D"
-                    strokeWidth="1.5"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </Button>
-            </div>
-          </div>
-        </div>
-        <div className="md:col-span-1 col-span-full box-shadow md:px-12 md:py-10 py-8 px-8 md:h-full h-auto">
-          <img src="/Frame 1000011454 (3).png" alt="" />
-          <div className="my-7">
-            <h2 className="font-[900] md:text-[24px] text-[16px] text-[#2B2B2B]">
-              E-commerce & Retail Solutions
-            </h2>
-            <ul className="list-disc pl-5 mt-2.5 ml-3 text-[#222222] text-[14px] md:text-[18px] font-[500] font-poppins">
-              <li className="text-[#555555] md:text-[18px] font-[500] text-[14px] mb-2 md:mb-3">
-                KinderCubby – A digital commerce platform for child care and
-                educational services.
-              </li>
-              <li className="text-[#555555] md:text-[18px] font-[500] text-[14px] mb-2 md:mb-3">
-                E-commerce & Retail Solutions – Scalable platforms enabling
-                seamless digital shopping experiences.
-              </li>
-              <li className="text-[#555555] md:text-[18px] font-[500] text-[14px] mb-2 md:mb-3">
-                Distribution Management for FMCG – Data-driven distribution
-                tracking and management for fast-moving consumer goods.
-              </li>
-            </ul>
-            {/* Buttons */}
-            <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-auto pt-5">
-              <Button
-                onClick={() => handleDetailsClick(5)}
-                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button"
-              >
-                More Details
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M14.4301 5.93005L20.5001 12.0001L14.4301 18.0701"
-                    stroke="#138B7D"
-                    strokeWidth="1.5"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M11.01 12H20.33"
-                    stroke="#138B7D"
-                    strokeWidth="1.5"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M3.5 12H6.97"
-                    stroke="#138B7D"
-                    strokeWidth="1.5"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </Button>
-            </div>
-          </div>
-        </div>
-        <div className="md:col-span-1 col-span-full box-shadow md:px-12 md:py-10 py-8 px-8 md:h-full h-auto">
-          <img src="/Frame 1000011454 (4).png" alt="" />
-          <div className="my-7">
-            <h2 className="font-[900] md:text-[24px] text-[16px] text-[#2B2B2B]">
-              Ticketing & Event Management
-            </h2>
-            <ul className="list-disc pl-5 mt-2.5 ml-3 text-[#222222] text-[14px] md:text-[18px] font-[500] font-poppins">
-              <li className="text-[#555555] md:text-[18px] font-[500] text-[14px] mb-2 md:mb-3">
-                Roztktat.iq – A streamlined ticketing platform for events and
-                entertainment.
-              </li>
-            </ul>
-            {/* Buttons */}
-            <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-auto pt-5">
-              <Button
-                onClick={() => handleDetailsClick(6)}
-                className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button"
-              >
-                More Details
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M14.4301 5.93005L20.5001 12.0001L14.4301 18.0701"
-                    stroke="#138B7D"
-                    strokeWidth="1.5"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M11.01 12H20.33"
-                    stroke="#138B7D"
-                    strokeWidth="1.5"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M3.5 12H6.97"
-                    stroke="#138B7D"
-                    strokeWidth="1.5"
-                    strokeMiterlimit="10"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </Button>
-            </div>
-          </div>
-        </div>
+        {items.map((item, index) => (
+          <ServiceItem
+            key={index}
+            id={item.id}
+            title={item.title}
+            image={item.image}
+            description={item.discription}
+          />
+        ))}
       </div>
     </div>
   );

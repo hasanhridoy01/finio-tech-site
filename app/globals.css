@@ -564,14 +564,15 @@ h5 {
   /* padding-left: 50px; */
 }
 .prartners_right button {
-  display: none !important; background-color: red
+  display: none !important;
+  background-color: red;
 }
 .prartners_left {
   @apply relative;
   z-index: 999;
 }
 .prartners_left::before {
-  @apply p-24;
+  @apply p-24 hidden md:block;
   content: "";
   position: absolute;
   /* border: 1px dashed hsl(0, 0%, 66.7%); */
@@ -587,4 +588,11 @@ h5 {
   scale: 2;
 
   /* ... */
+}
+.details {
+  @apply text-[#555] flex flex-col gap-3;
+}
+.details li {
+  @apply ml-6;
+  list-style: disc;
 }

@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 const ProudPartner = () => {
   return (
-    <section className="my-24 md:my-44">
+    <section className="my-24 md:my-44 mx-4 md:mx-0">
       <div className="container mx-auto w-full flex flex-col items-center bg-[#EBFAF7] rounded-[50px] p-12 border border-[#fff] prartners_wrapper">
         <h2 className="text-[11px] font-[900] text-[#222222] mb-2  ">
           Partner’s
