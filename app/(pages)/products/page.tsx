@@ -29,26 +29,21 @@ export default function Products() {
         </div>
         <div className="md:col-span-2 col-span-full">
           <h2 className="leading-8 md:text-[24px] text-[16px] font-[900] mb-2 text-center md:text-start">
-            Neobank Platform
+            Neo Banking
           </h2>
           <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
-            Launch a fully digital bank with a feature-rich and user-friendly
-            platform
+            A fully digital banking solution enabling seamless financial
+            transactions, customer onboarding, and innovative financial
+            services.
           </h3>
 
           {/* Features List */}
           <ul className="list-disc pl-5 mt-2.5 ml-3 text-[#222222] text-[14px] md:text-[18px] font-[500]">
-            <li className="mb-1">
-              Instant digital account opening with KYC/AML compliance for
-              individuals and businesses
-            </li>
-            <li className="mb-1">
-              Real-time fund transfers via API-driven connections
-            </li>
-            <li className="mb-1">
-              Spend analytics and budgeting tools powered by AI
-            </li>
-            <li className="mb-1">Debit/credit card issuance and management</li>
+            <li className="mb-1">Multi-Currency Support</li>
+            <li className="mb-1">Fully Digital Account</li>
+            <li className="mb-1">Digital Payments & Transfers</li>
+            <li className="mb-1">Real-Time Transaction</li>
+            <li className="mb-1">Virtual & Physical Cards</li>
           </ul>
           {/* Buttons */}
           <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-5">
@@ -100,24 +95,21 @@ export default function Products() {
         </div>
         <div className="md:col-span-2 col-span-full">
           <h2 className="leading-8 md:text-[24px] text-[16px] font-[900] mb-2 text-center md:text-start">
-            Mobile Financial Services Platform
+            Wallet & Mobile Financial Solutions
           </h2>
           <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
-            Deliver seamless digital payment experiences with our robust,
-            secure, and scalable eWallet solutions
+            E-Wallet Mobile App offering fast, secure, and seamless transactions
+            for businesses and individuals, with global accessibility and
+            convenience for on-the-go payments. Simplifying digital transactions
+            for users anytime, anywhere.
           </h3>
 
           {/* Features List */}
           <ul className="list-disc pl-5 mt-2.5 ml-3 text-[#222222] text-[14px] md:text-[18px] font-[500]">
-            <li className="mb-1">Single or Multi-currency options</li>
-            <li className="mb-1">Cross-border payments</li>
-            <li className="mb-1">
-              QR code and NFC-enabled contactless payments
-            </li>
-            <li className="mb-1">Peer-to-peer (P2P) transfers</li>
-            <li className="mb-1">
-              Loyalty rewards, cashback, and coupon integration
-            </li>
+            <li className="mb-1">Registration & Login</li>
+            <li className="mb-1">Sync Accounts</li>
+            <li className="mb-1">Balance Replenishment</li>
+            <li className="mb-1">Online payments</li>
           </ul>
           {/* Buttons */}
           <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-5">
@@ -169,20 +161,19 @@ export default function Products() {
         </div>
         <div className="md:col-span-2 col-span-full">
           <h2 className="leading-8 md:text-[24px] text-[16px] font-[900] mb-2 text-center md:text-start">
-            Loan Management Platform
+            Halal Loan
           </h2>
           <h3 className="md:text-[18px] text-[14px] font-[500] text-[#222222] text-center md:text-start">
-            Streamline your lending operations with our automated loan platform
+            A Shariah-compliant financing solution designed to facilitate
+            ethical and interest-free lending for individuals and businesses.
           </h3>
 
           {/* Features List */}
           <ul className="list-disc pl-5 mt-2.5 ml-3 text-[#222222] text-[14px] md:text-[18px] font-[500]">
-            <li className="mb-1">
-              End-to-end loan lifecycle management (origination to closure)
-            </li>
-            <li className="mb-1">AI-driven credit scoring and risk analysis</li>
-            <li className="mb-1">Payment scheduling and reminders</li>
-            <li className="mb-1">Multi-channel borrower communication tools</li>
+            <li className="mb-1">Interest-Free Loan Structure</li>
+            <li className="mb-1">Shariah Compliance Monitoring</li>
+            <li className="mb-1">Profit & Risk Sharing Mechanism</li>
+            <li className="mb-1">Purpose-Based Loan Categories</li>
           </ul>
           {/* Buttons */}
           <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-5">
