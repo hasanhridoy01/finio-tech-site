@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import ProductCarousel4 from "@/components/products-components/ProductCarousel4";
+import Link from "next/link";
 
 type propsType = {
   params: Promise<{ id: string }>;
@@ -231,12 +232,15 @@ const ProductDetails = async ({ params }: propsType) => {
         </div>
       </div>
       <div className="flex items-center justify-center gap-4 md:flex-row flex-col my-10">
-        <Button className="md:w-[201px] w-[175px] md:h-[55px] h-[40px] secondary-button">
+        {/* <Button className="md:w-[201px] w-[175px] md:h-[55px] h-[40px] secondary-button">
           Request a Demo
-        </Button>
-        <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
+        </Button> */}
+        <Link
+          href="/contact"
+          className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button"
+        >
           Quick Contact
-        </Button>
+        </Link>
       </div>
     </div>
   );

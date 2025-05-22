@@ -33,7 +33,7 @@ export default function ProductCarousel6() {
     });
   }, [api]);
   return (
-    <div className="mx-auto max-w-5xl">
+    <div className="mx-auto w-full">
       <Carousel setApi={setApi} className="w-full " opts={{ loop: true }}>
         <CarouselContent className="py-3">
           {images.map((item, index) => (

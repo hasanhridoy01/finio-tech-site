@@ -303,7 +303,7 @@ export default function Home() {
             </ul>
             {/* Buttons */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-5">
-              <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button">
+              {/* <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button">
                 Quick Demo
                 <svg
                   width="25"
@@ -321,7 +321,7 @@ export default function Home() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </Button>
+              </Button> */}
               <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
                 Find More Details
                 <svg
@@ -392,7 +392,7 @@ export default function Home() {
             </ul>
             {/* Buttons */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-5">
-              <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button">
+              {/* <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button">
                 Quick Demo
                 <svg
                   width="25"
@@ -410,7 +410,7 @@ export default function Home() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </Button>
+              </Button> */}
               <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
                 Find More Details
                 <svg
@@ -488,7 +488,7 @@ export default function Home() {
             </ul>
             {/* Buttons */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-5">
-              <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button">
+              {/* <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button">
                 Quick Demo
                 <svg
                   width="25"
@@ -506,7 +506,7 @@ export default function Home() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </Button>
+              </Button> */}
               <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
                 Find More Details
                 <svg

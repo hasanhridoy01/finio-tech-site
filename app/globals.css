@@ -543,17 +543,7 @@ h5 {
   background-repeat: no-repeat;
   height: 700px;
 }
-.carousel-box {
-  @apply p-12 bg-[#E9FAF6];
-  box-shadow: -16px 0px 23px 12px rgba(153, 153, 153, 0.534) inset;
-  border-radius: 0px 46px 46px 0px;
-  /* box-shadow: -2px -2px 4px 0px #fff inset, 2px 2px 4px 0px #badfdd inset; */
-}
-.carousel-box-right {
-  @apply p-12 bg-[#E9FAF6];
-  box-shadow: 8px 0px 23px 12px rgba(153, 153, 153, 0.75) inset;
-  border-radius: 46px 0px 0px 46px;
-}
+
 .prartners_wrapper {
   position: relative;
   background-image: url(/corner2.png), url(/corner.png);
@@ -597,3 +587,83 @@ h5 {
   @apply ml-6;
   list-style: disc;
 }
+
+.mask-gradient {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 0, 0, 0.068);
+  border-radius: 30px;
+  box-shadow: -3px 1px 16px 23px rgba(0, 0, 0, 0.75) inset;
+  overflow: hidden;
+}
+
+.mask-circle {
+  mask: radial-gradient(circle at center, black 60%, transparent 70%);
+  -webkit-mask: radial-gradient(circle at center, black 60%, transparent 70%);
+}
+
+.mask-stripes {
+  mask: repeating-linear-gradient(
+    90deg,
+    black 0px,
+    black 10px,
+    transparent 10px,
+    transparent 20px
+  );
+  -webkit-mask: repeating-linear-gradient(
+    90deg,
+    black 0px,
+    black 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}
+
+/* test  */
+.carousel-box {
+  @apply p-12 bg-[#E9FAF6];
+  box-shadow: -16px 0px 23px 12px rgba(153, 153, 153, 0.534) inset;
+  border-radius: 0px 46px 46px 0px;
+}
+
+.carousel-box-right {
+  @apply p-12 bg-[#E9FAF6];
+  box-shadow: 8px 0px 23px 12px rgba(153, 153, 153, 0.75) inset;
+  border-radius: 46px 0px 0px 46px;
+}
+/* .carousel-box {
+  @apply p-12 bg-[#E9FAF6];
+  border-radius: 0px 46px 46px 0px;
+  position: relative;
+}
+
+.carousel-shadow-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: -16px 0px 23px 12px rgba(153, 153, 153, 0.534) inset;
+  border-radius: 0px 46px 46px 0px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.carousel-box-right {
+  position: relative;
+}
+
+.carousel-shadow-mask-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 16px 0px 23px 12px rgba(153, 153, 153, 0.534) inset;
+  border-radius: 46px 0px 0px 46px;
+  pointer-events: none;
+  z-index: 10;
+} */

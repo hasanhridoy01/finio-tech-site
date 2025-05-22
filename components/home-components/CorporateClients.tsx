@@ -133,7 +133,7 @@ export default function CorporateClients() {
         </Tabs>
       </div>
       <div className="flex items-center justify-center gap-4 md:flex-row flex-col my-10">
-        <Button className="md:w-[201px] w-[175px] md:h-[55px] h-[40px] secondary-button">
+        {/* <Button className="md:w-[201px] w-[175px] md:h-[55px] h-[40px] secondary-button">
           Quick Demo
           <svg
             width="25"
@@ -151,7 +151,7 @@ export default function CorporateClients() {
               strokeLinejoin="round"
             />
           </svg>
-        </Button>
+        </Button> */}
         <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
           Find More Details
           <svg

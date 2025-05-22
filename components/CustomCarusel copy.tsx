@@ -96,7 +96,7 @@ export default function CustomCarusel() {
       <div className="grid grid-cols-1 md:grid-cols-6 gap-6">
         {/* Top Carousel - 3 items at a time */}
         <div
-          className="w-full overflow-hidden carousel-box md:col-span-3 hidden md:block"
+          className="w-full overflow-hidden carousel-box  md:col-span-3 hidden md:block"
           ref={topEmblaRef}
         >
           <div className="flex h-full">
@@ -140,8 +140,8 @@ export default function CustomCarusel() {
             </ul>
 
             {/* Buttons */}
-            <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-8">
-              {/* <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button">
+            <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-12">
+              <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] secondary-button">
                 Quick Demo
                 <svg
                   width="25"
@@ -159,7 +159,7 @@ export default function CustomCarusel() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </Button> */}
+              </Button>
               <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
                 Find More Details
                 <svg
