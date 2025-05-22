@@ -37,10 +37,18 @@ const page = () => {
           Overview :
         </h2>
         <p className="md:text-[16px] text-[14px] font-[500] text-[#555] text-center md:text-start mb-4 leading-[30px]">
-          Gist: Intelligent recruitment solution that streamlines hiring by connecting with top talent quickly using smart candidate matching, data analytics, and automated screening to enhance accuracy and reduce time-to-hire.
+          Intelligent recruitment solution that streamlines hiring by connecting
+          with top talent quickly using smart candidate matching, data
+          analytics, and automated screening to enhance accuracy and reduce
+          time-to-hire.
         </p>
         <p className="md:text-[16px] text-[14px] font-[500] text-[#555] text-center md:text-start mb-2 leading-[30px]">
-          FinioTech Ltd. offers HireIQ, a cutting-edge solution designed to streamline your recruitment process, allowing you to connect with top talent quickly and efficiently. With smart candidate matching, data analytics, and automated screening, HireIQ helps businesses identify the best candidates faster, enhance hiring accuracy, and reduce time-to-hire.
+          FinioTech Ltd. offers HireIQ, a cutting-edge solution designed to
+          streamline your recruitment process, allowing you to connect with top
+          talent quickly and efficiently. With smart candidate matching, data
+          analytics, and automated screening, HireIQ helps businesses identify
+          the best candidates faster, enhance hiring accuracy, and reduce
+          time-to-hire.
         </p>
         <h2 className=" mb-2 md:text-[24px] text-[18px] font-bold mt-10">
           This service covers:

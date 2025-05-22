@@ -13,7 +13,8 @@ const page = () => {
             Salesforce
           </h1>
           <h3 className="text-[14px] font-[500] text-[#222222] text-center md:text-start mb-4">
-            Leading cloud-based CRM platform for sales, service, marketing, and beyond.
+            Leading cloud-based CRM platform for sales, service, marketing, and
+            beyond.
           </h3>
 
           {/* Features List */}
@@ -36,10 +37,21 @@ const page = () => {
           Overview :
         </h2>
         <p className="md:text-[16px] text-[14px] font-[500] text-[#555] text-center md:text-start mb-4 leading-[30px]">
-          Gist: Salesforce services designed to streamline customer relationship management (CRM). We specialize in Salesforce implementation, customization, and integration, optimizing sales, marketing, and customer service operations to improve efficiency, enhance customer experiences, and drive growth.
+          Salesforce services designed to streamline customer relationship
+          management (CRM). We specialize in Salesforce implementation,
+          customization, and integration, optimizing sales, marketing, and
+          customer service operations to improve efficiency, enhance customer
+          experiences, and drive growth.
         </p>
         <p className="md:text-[16px] text-[14px] font-[500] text-[#555] text-center md:text-start mb-2 leading-[30px]">
-          FinioTech Ltd., leveraging the power of Salesforce, offers comprehensive Salesforce services to help businesses streamline customer relationship management (CRM). We specialize in Salesforce implementation, customization, and integration to optimize sales, marketing, and customer service operations. Our solutions are tailored to your unique business needs, helping you improve efficiency, enhance customer experiences, and drive growth with Salesforce's robust capabilities.
+          FinioTech Ltd., leveraging the power of Salesforce, offers
+          comprehensive Salesforce services to help businesses streamline
+          customer relationship management (CRM). We specialize in Salesforce
+          implementation, customization, and integration to optimize sales,
+          marketing, and customer service operations. Our solutions are tailored
+          to your unique business needs, helping you improve efficiency, enhance
+          customer experiences, and drive growth with Salesforce's robust
+          capabilities.
         </p>
         <h2 className=" mb-2 md:text-[24px] text-[18px] font-bold mt-10">
           This service covers:

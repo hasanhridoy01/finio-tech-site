@@ -37,9 +37,9 @@ const page = () => {
           Overview :
         </h2>
         <p className="md:text-[16px] text-[14px] font-[500] text-[#555] text-center md:text-start mb-4 leading-[30px]">
-          Gist: Next-generation Call Center Services offering fast, intelligent,
-          and personalized support with scalable, tech-driven solutions to
-          enhance customer interactions and improve efficiency.
+          Next-generation Call Center Services offering fast, intelligent, and
+          personalized support with scalable, tech-driven solutions to enhance
+          customer interactions and improve efficiency.
         </p>
         <p className="md:text-[16px] text-[14px] font-[500] text-[#555] text-center md:text-start mb-2 leading-[30px]">
           At FinioTech, we offer next-generation Call Center Services that

@@ -35,42 +35,42 @@ export default function Services() {
       title: "TradeX ERP",
       image: "/service/four.png",
       discription:
-        "Gist: All-in-one ERP designed to streamline operations, boost efficiency, and drive growth, with a modular design that allows businesses to integrate only the features they need. TradeX ERP is an all-in-one business management software, Powered by Odoo- that helps organizations streamline operations... ",
+        " All-in-one ERP designed to streamline operations, boost efficiency, and drive growth, with a modular design that allows businesses to integrate only the features they need. TradeX ERP is an all-in-one business management software, Powered by Odoo- that helps organizations streamline operations... ",
     },
     {
       id: 5,
       title: "Salesforce",
       image: "/service/five.png",
       discription:
-        "Gist: Salesforce services designed to streamline customer relationship management (CRM). We specialize in Salesforce implementation, customization, and integration, optimizing sales, marketing, and customer service operations to improve efficiency, enhance customer experiences, and drive growth...",
+        " Salesforce services designed to streamline customer relationship management (CRM). We specialize in Salesforce implementation, customization, and integration, optimizing sales, marketing, and customer service operations to improve efficiency, enhance customer experiences, and drive growth...",
     },
     {
       id: 6,
       title: "HireIQ- Augment your workforce intelligently",
       image: "/service/six.png",
       discription:
-        "Gist: Intelligent recruitment solution that streamlines hiring by connecting with top talent quickly using smart candidate matching, data analytics, and automated screening to enhance accuracy and reduce time-to-hire. FinioTech Ltd. offers HireIQ, a cutting-edge solution designed to str...",
+        " Intelligent recruitment solution that streamlines hiring by connecting with top talent quickly using smart candidate matching, data analytics, and automated screening to enhance accuracy and reduce time-to-hire. FinioTech Ltd. offers HireIQ, a cutting-edge solution designed to str...",
     },
     {
       id: 7,
       title: "Bulk SMS (A2P SMS Service)",
       image: "/service/seven.png",
       discription:
-        "Gist: A bulk SMS solution enabling seamless communication, with high deliverability, real-time reporting, and customizable messaging for businesses to reach large audiences efficiently.FinioTech Ltd. offers a powerful, secure, and scalable Bulk SMS platform designed to help businesses send promotional, transacti...",
+        " A bulk SMS solution enabling seamless communication, with high deliverability, real-time reporting, and customizable messaging for businesses to reach large audiences efficiently.FinioTech Ltd. offers a powerful, secure, and scalable Bulk SMS platform designed to help businesses send promotional, transacti...",
     },
     {
       id: 8,
       title: "Top – Up",
       image: "/service/eight.png",
       discription:
-        "Gist: A digital mobile top-up solution enabling seamless airtime, data, and DTH recharges, with real-time, secure transactions through integration with telecom operators. FinioTech Ltd. enables businesses to offer instant, secure, and seamless mobile top-up services for prepaid airtime, data, and DT...",
+        " A digital mobile top-up solution enabling seamless airtime, data, and DTH recharges, with real-time, secure transactions through integration with telecom operators. FinioTech Ltd. enables businesses to offer instant, secure, and seamless mobile top-up services for prepaid airtime, data, and DT...",
     },
     {
       id: 9,
       title: "Call Center Service (AI-BASED)",
       image: "/service/nine.png",
       discription:
-        "Gist: Next-generation Call Center Services offering fast, intelligent, and personalized support with scalable, tech-driven solutions to enhance customer interactions and improve efficiency. At FinioTech, we offer next-generation Call Center Services that deliver fast, intelligent, and personalized customer support. Power",
+        " Next-generation Call Center Services offering fast, intelligent, and personalized support with scalable, tech-driven solutions to enhance customer interactions and improve efficiency. At FinioTech, we offer next-generation Call Center Services that deliver fast, intelligent, and personalized customer support. Power",
     },
     {
       id: 10,
@@ -78,7 +78,7 @@ export default function Services() {
         "Customized Campaign (Manufacturer, Retail, Distributor & Consumer-based)",
       image: "/service/ten.png",
       discription:
-        "Gist: Data-driven customized campaign services designed to engage your audience with personalized, targeted messages across multiple channels, boosting engagement and conversions. FinioTech Ltd. offers powerful, data-driven customized campaign...",
+        " Data-driven customized campaign services designed to engage your audience with personalized, targeted messages across multiple channels, boosting engagement and conversions. FinioTech Ltd. offers powerful, data-driven customized campaign...",
     },
   ];
 

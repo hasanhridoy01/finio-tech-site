@@ -37,9 +37,9 @@ const page = () => {
           Overview :
         </h2>
         <p className="md:text-[16px] text-[14px] font-[500] text-[#555] text-center md:text-start mb-4 leading-[30px]">
-          Gist: All-in-one ERP designed to streamline operations, boost
-          efficiency, and drive growth, with a modular design that allows
-          businesses to integrate only the features they need.
+          All-in-one ERP designed to streamline operations, boost efficiency,
+          and drive growth, with a modular design that allows businesses to
+          integrate only the features they need.
         </p>
         <p className="md:text-[16px] text-[14px] font-[500] text-[#555] text-center md:text-start mb-2 leading-[30px]">
           TradeX ERP is an all-in-one business management software, Powered by

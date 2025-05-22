@@ -13,7 +13,8 @@ const page = () => {
             Top – Up
           </h1>
           <h3 className="text-[14px] font-[500] text-[#222222] text-center md:text-start mb-4">
-            Instant mobile and DTH recharge solutions for seamless prepaid balance management.
+            Instant mobile and DTH recharge solutions for seamless prepaid
+            balance management.
           </h3>
 
           {/* Features List */}
@@ -36,10 +37,16 @@ const page = () => {
           Overview :
         </h2>
         <p className="md:text-[16px] text-[14px] font-[500] text-[#555] text-center md:text-start mb-4 leading-[30px]">
-          Gist: A digital mobile top-up solution enabling seamless airtime, data, and DTH recharges, with real-time, secure transactions through integration with telecom operators.
+          A digital mobile top-up solution enabling seamless airtime, data, and
+          DTH recharges, with real-time, secure transactions through integration
+          with telecom operators.
         </p>
         <p className="md:text-[16px] text-[14px] font-[500] text-[#555] text-center md:text-start mb-2 leading-[30px]">
-          FinioTech Ltd. enables businesses to offer instant, secure, and seamless mobile top-up services for prepaid airtime, data, and DTH recharges. Our platform connects with major telecom operators, supporting real-time transactions through a robust and scalable system.
+          FinioTech Ltd. enables businesses to offer instant, secure, and
+          seamless mobile top-up services for prepaid airtime, data, and DTH
+          recharges. Our platform connects with major telecom operators,
+          supporting real-time transactions through a robust and scalable
+          system.
         </p>
         <h2 className=" mb-2 md:text-[24px] text-[18px] font-bold mt-10">
           This service covers:

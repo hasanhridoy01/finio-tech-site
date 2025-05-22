@@ -37,7 +37,7 @@ const page = () => {
           Overview :
         </h2>
         <p className="md:text-[16px] text-[14px] font-[500] text-[#555] text-center md:text-start mb-4 leading-[30px]">
-          Gist: A bulk SMS solution enabling seamless communication, with high
+          A bulk SMS solution enabling seamless communication, with high
           deliverability, real-time reporting, and customizable messaging for
           businesses to reach large audiences efficiently.
         </p>

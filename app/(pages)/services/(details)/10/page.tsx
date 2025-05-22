@@ -10,10 +10,12 @@ const page = () => {
         {/* Right Content */}
         <div className="">
           <h1 className="section-title-two md:leading-[55px] leading-8 md:text-[48px] text-[24px] mb-2 text-center md:text-start">
-            Customized Campaign (Manufacturer, Retail, Distributor & Consumer-based)
+            Customized Campaign (Manufacturer, Retail, Distributor &
+            Consumer-based)
           </h1>
           <h3 className="text-[14px] font-[500] text-[#222222] text-center md:text-start mb-4">
-            Tailored marketing campaigns designed for every link in the supply chain — from manufacturers to consumers.
+            Tailored marketing campaigns designed for every link in the supply
+            chain — from manufacturers to consumers.
           </h3>
 
           {/* Features List */}
@@ -36,10 +38,16 @@ const page = () => {
           Overview :
         </h2>
         <p className="md:text-[16px] text-[14px] font-[500] text-[#555] text-center md:text-start mb-4 leading-[30px]">
-          Gist: Data-driven customized campaign services designed to engage your audience with personalized, targeted messages across multiple channels, boosting engagement and conversions.
+          Data-driven customized campaign services designed to engage your
+          audience with personalized, targeted messages across multiple
+          channels, boosting engagement and conversions.
         </p>
         <p className="md:text-[16px] text-[14px] font-[500] text-[#555] text-center md:text-start mb-2 leading-[30px]">
-          FinioTech Ltd. offers powerful, data-driven customized campaign services designed to engage your audience with personalized and targeted messages across multiple channels. Our solution leverages insights to create effective campaigns that enhance engagement, drive conversions, and build lasting customer relationships.
+          FinioTech Ltd. offers powerful, data-driven customized campaign
+          services designed to engage your audience with personalized and
+          targeted messages across multiple channels. Our solution leverages
+          insights to create effective campaigns that enhance engagement, drive
+          conversions, and build lasting customer relationships.
         </p>
         <h2 className=" mb-2 md:text-[24px] text-[18px] font-bold mt-10">
           This service covers:
@@ -53,7 +61,6 @@ const page = () => {
           <li>High Deliverability & Reliability</li>
           <li>Real-Time Analytics & Reporting</li>
           <li>Multilingual and Dynamic Content</li>
-  
         </ul>
       </div>
     </div>
