@@ -1,6 +1,6 @@
 import React from "react";
-import ProductCarousel from "@/components/products-components/ProductCarousel";
 import { Button } from "@/components/ui/button";
+import ProductCarousel1 from "@/components/products-components/ProductCarousel1";
 
 type propsType = {
   params: Promise<{ id: string }>;
@@ -17,11 +17,12 @@ const ProductDetails = async ({ params }: propsType) => {
           Halal Loan
         </h1>
         <h3 className="md:text-[18px] text-[14px] font-medium text-[#222222] text-center md:text-start md:w-[850px] w-full">
-          A Shariah-compliant financing solution designed to facilitate ethical and interest-free lending for individuals and businesses.
+          A Shariah-compliant financing solution designed to facilitate ethical
+          and interest-free lending for individuals and businesses.
         </h3>
       </div>
       <div className="my-20 flex items-center justify-center">
-        <ProductCarousel />
+        <ProductCarousel1 />
       </div>
 
       <div className="box-shadow md:px-12 md:py-10 py-8 px-8">
@@ -147,10 +148,16 @@ const ProductDetails = async ({ params }: propsType) => {
               Overview :
             </h2>
             <p className="md:text-[16px] text-[14px] font-[500] text-[#555] text-center md:text-start mb-4 leading-[30px]">
-             A Shariah-compliant financing solution designed to facilitate ethical and interest-free lending for individuals and businesses.
+              A Shariah-compliant financing solution designed to facilitate
+              ethical and interest-free lending for individuals and businesses.
             </p>
             <p className="md:text-[16px] text-[14px] font-[500] text-[#555] text-center md:text-start mb-2 leading-[30px]">
-             We, at FinioTech, provide Halal Loan solutions that comply with Islamic finance principles, ensuring ethical, interest-free financing for individuals and businesses. Our solution offers a transparent, fair, and flexible loan structure, designed to support financial needs without compromising religious values or principles.
+              We, at FinioTech, provide Halal Loan solutions that comply with
+              Islamic finance principles, ensuring ethical, interest-free
+              financing for individuals and businesses. Our solution offers a
+              transparent, fair, and flexible loan structure, designed to
+              support financial needs without compromising religious values or
+              principles.
             </p>
           </div>
 

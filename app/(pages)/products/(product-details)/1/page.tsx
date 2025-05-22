@@ -1,6 +1,6 @@
 import React from "react";
-import ProductCarousel from "@/components/products-components/ProductCarousel";
 import { Button } from "@/components/ui/button";
+import ProductCarousel1 from "@/components/products-components/ProductCarousel1";
 
 type propsType = {
   params: Promise<{ id: string }>;
@@ -22,7 +22,7 @@ const ProductDetails = async ({ params }: propsType) => {
         </h3>
       </div>
       <div className="my-20 flex items-center justify-center">
-        <ProductCarousel />
+        <ProductCarousel1 />
       </div>
 
       <div className="box-shadow md:px-12 md:py-10 py-8 px-8">

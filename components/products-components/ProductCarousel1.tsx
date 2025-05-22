@@ -10,7 +10,7 @@ import {
   type CarouselApi,
 } from "@/components/ui/carousel";
 import { cn } from "@/lib/utils";
-export default function SlideScale() {
+export default function ProductCarousel1() {
   const [api, setApi] = React.useState<CarouselApi>();
   const [current, setCurrent] = React.useState(0);
   console.log("current :", current);
@@ -35,7 +35,7 @@ export default function SlideScale() {
                 })}
               >
                 <CardContent className="flex aspect-square items-center justify-center p-0">
-                  <img src="/dark2.png" alt="" className="" />
+                  <img src="/dark.png" alt="" className="" />
                 </CardContent>
               </Card>
             </CarouselItem>
