@@ -1,0 +1,108 @@
+.orbitContainer {
+  position: relative;
+  width: 300px; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto; /* For demo centering */
+}
+
+.centerBall {
+  width: 80px; /* Adjust as needed */
+  height: 80px; /* Adjust as needed */
+  background-color: #2ecc71; /* Greenish color from image */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  /* Add your logo/icon here */
+}
+
+.centerBall img { /* If you use an img tag for the logo */
+  width: 50%;
+  height: 50%;
+}
+
+.orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  /* For the visual orbit lines like in the image */
+  border: 1px solid #adeecf; /* Light teal color from image */
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.orbitDot {
+  position: absolute;
+  width: 12px; /* Adjust as needed */
+  height: 12px; /* Adjust as needed */
+  background-color: #074d43; /* Dark teal dot color */
+  border-radius: 50%;
+  /* Position the dot on the edge of the orbit path */
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%); /* Adjusts to center of the dot on the line */
+}
+
+/* Define different orbit sizes and speeds */
+.orbit1 {
+  width: 150px;
+  height: 150px;
+  margin-left: -75px; /* -width/2 */
+  margin-top: -75px;  /* -height/2 */
+  animation-name: rotateOrbit;
+  animation-duration: 8s;
+}
+
+.orbit2 {
+  width: 220px;
+  height: 220px;
+  margin-left: -110px;
+  margin-top: -110px;
+  animation-name: rotateOrbit;
+  animation-duration: 12s;
+}
+
+.orbit3 {
+  width: 290px;
+  height: 290px;
+  margin-left: -145px;
+  margin-top: -145px;
+  animation-name: rotateOrbit;
+  animation-duration: 16s;
+}
+
+/* Specific dot positions on different orbits if needed, or randomize with JS */
+.orbit1 .orbitDot {
+  /* Initial position can be set here if not randomizing */
+}
+.orbit2 .orbitDot {
+  /* Example of offsetting the dot start for visual variety if animations start together */
+  transform: translate(-50%, -50%) rotate(45deg) translateX(110px) rotate(-45deg); /* This is tricky, simpler to delay animation */
+}
+
+
+@keyframes rotateOrbit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* If you want the dots to appear at different points without complex positioning,
+   you can give them different animation-delay values */
+.orbit1-dot1 { animation-delay: 0s; }
+.orbit1-dot2 { animation-delay: -4s; } /* Starts halfway through an 8s animation */
+
+.orbit2-dot1 { animation-delay: -2s; }
+.orbit2-dot2 { animation-delay: -8s; }
+
+.orbit3-dot1 { animation-delay: -5s; }
+.orbit3-dot2 { animation-delay: -13s; }
