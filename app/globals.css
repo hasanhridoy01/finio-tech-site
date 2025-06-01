@@ -560,6 +560,8 @@ h5 {
 .prartners_left {
   @apply relative pl-2;
   z-index: 999;
+
+  /* background-color: #096b44; */
 }
 .prartners_left::before {
   /* @apply p-24 hidden md:block; */
@@ -569,16 +571,15 @@ h5 {
   /* border: 1px dashed hsl(0, 0%, 66.7%); */
   /* right: -150px; */
   /* top: 100px; */
-  width: 300px;
-  height: 250%;
+  /* width: 300px; */
+  /* height: 100%; */
   z-index: -1;
   background-image: url(/mask2.png);
-  background-size: contain;
-  background-position: 50px 140px;
-  background-repeat: no-repeat;
-  scale: 2;
+  background-size: cover;
+  /* background-position: 0px 20px; */
 
-  /* ... */
+  background-repeat: no-repeat;
+  scale: 3;
 }
 .details {
   @apply text-[#555] flex flex-col gap-3;
@@ -622,48 +623,52 @@ h5 {
   );
 }
 
-/* test  */
-.carousel-box {
-  @apply p-12 bg-[#E9FAF6];
-  box-shadow: -16px 0px 23px 12px rgba(153, 153, 153, 0.534) inset;
+.carousel-wrapper {
+  position: relative;
   border-radius: 0px 46px 46px 0px;
 }
 
-.carousel-box-right {
-  @apply p-12 bg-[#E9FAF6];
+.carousel-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: -16px 0px 23px 12px rgba(153, 153, 153, 0.534) inset;
+  border-radius: 0px 46px 46px 0px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.carousel-wrapper-right {
+  position: relative;
+  border-radius: 46px 0px 0px 46px;
+}
+
+.carousel-wrapper-right::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   box-shadow: 8px 0px 23px 12px rgba(153, 153, 153, 0.75) inset;
   border-radius: 46px 0px 0px 46px;
+  pointer-events: none;
+  z-index: 1;
 }
-/* .carousel-box {
+
+.carousel-box {
   @apply p-12 bg-[#E9FAF6];
   border-radius: 0px 46px 46px 0px;
   position: relative;
-}
-
-.carousel-shadow-mask {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  box-shadow: -16px 0px 23px 12px rgba(153, 153, 153, 0.534) inset;
-  border-radius: 0px 46px 46px 0px;
-  pointer-events: none;
-  z-index: 10;
+  z-index: 0;
 }
 
 .carousel-box-right {
-  position: relative;
-}
-
-.carousel-shadow-mask-right {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  box-shadow: 16px 0px 23px 12px rgba(153, 153, 153, 0.534) inset;
+  @apply p-12 bg-[#E9FAF6];
   border-radius: 46px 0px 0px 46px;
-  pointer-events: none;
-  z-index: 10;
-} */
+  position: relative;
+  z-index: 0;
+}

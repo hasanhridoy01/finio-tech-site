@@ -95,22 +95,24 @@ export default function CustomCarusel() {
     <div className="max-w-[1920px] mx-auto py-6">
       <div className="grid grid-cols-1 md:grid-cols-6 gap-6">
         {/* Top Carousel - 3 items at a time */}
-        <div
-          className="w-full overflow-hidden carousel-box md:col-span-3 hidden md:block"
-          ref={topEmblaRef}
-        >
-          <div className="flex h-full">
-            {carouselItems.map((item) => (
-              <div className="flex-[0_0_33.333%] relative" key={item.id}>
-                <div className="mx-1 rounded-lg overflow-hidden">
-                  <img
-                    src={item.img}
-                    alt={`Slide ${item.id}`}
-                    className="w-full h-full object-cover"
-                  />
+        <div className="carousel-wrapper md:col-span-3 hidden md:block">
+          <div
+            className="w-full overflow-hidden carousel-box"
+            ref={topEmblaRef}
+          >
+            <div className="flex h-full">
+              {carouselItems.map((item) => (
+                <div className="flex-[0_0_33.333%] relative" key={item.id}>
+                  <div className="mx-1 rounded-lg overflow-hidden">
+                    <img
+                      src={item.img}
+                      alt={`Slide ${item.id}`}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
 
@@ -200,25 +202,27 @@ export default function CustomCarusel() {
         </div>
 
         {/* Bottom Carousel - 1 item + half of the next item */}
-        <div
-          className="w-full overflow-hidden carousel-box-right hidden md:block"
-          ref={bottomEmblaRef}
-        >
-          <div className="flex h-full">
-            {carouselItems.map((item) => (
-              <div
-                className="md:flex-[0_0_340%] lg:flex-[0_0_240%] xl:flex-[0_0_180%] 2xl:flex-[0_0_140%] relative"
-                key={item.id}
-              >
-                <div className="mx-1 rounded-lg overflow-hidden">
-                  <img
-                    src={item.img}
-                    alt={`Slide ${item.id}`}
-                    className="w-full h-full object-cover"
-                  />
+        <div className="carousel-wrapper-right hidden md:block">
+          <div
+            className="w-full overflow-hidden carousel-box-right"
+            ref={bottomEmblaRef}
+          >
+            <div className="flex h-full">
+              {carouselItems.map((item) => (
+                <div
+                  className="md:flex-[0_0_340%] lg:flex-[0_0_240%] xl:flex-[0_0_180%] 2xl:flex-[0_0_140%] relative"
+                  key={item.id}
+                >
+                  <div className="mx-1 rounded-lg overflow-hidden">
+                    <img
+                      src={item.img}
+                      alt={`Slide ${item.id}`}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>

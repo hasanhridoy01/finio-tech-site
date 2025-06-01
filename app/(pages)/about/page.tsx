@@ -1,6 +1,7 @@
 import AboutTabs from "@/components/about-components/AboutTabs";
 import { Button } from "@/components/ui/button";
 import React from "react";
+import "./about.css";
 
 export default function page() {
   return (
@@ -46,7 +47,17 @@ export default function page() {
             </h3>
           </div>
           <div className="col-span-full md:col-span-3 px-[38px] md:block hidden">
-            <img src="/right.png" alt="" />
+            {/* <img src="/right.png" alt="" /> */}
+            <div className="circle_wrapper relative flex items-center justify-center">
+              <img
+                src="/circle.png"
+                alt=""
+                className="w-full h-full animate-spin-slow"
+              />
+              <div className="logo_circle absolute">
+                <img src="/logo_circle.png" alt="" className="max-w-[150px]" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

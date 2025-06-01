@@ -20,8 +20,8 @@ export default function AboutTabs() {
         <TabsContent value="All">
           <Card>
             <CardContent>
-              <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4">
-                <div className="col-span-full md:col-span-2 about-card h-full">
+              <div className="grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] justify-items-center items-center gap-4 mx-auto">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -47,7 +47,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="64"
@@ -74,7 +74,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -93,7 +93,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -139,7 +139,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -158,7 +158,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -240,7 +240,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -271,7 +271,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -310,7 +310,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -421,7 +421,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -456,7 +456,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -491,7 +491,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -522,7 +522,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -541,7 +541,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -576,7 +576,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -659,7 +659,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -808,7 +808,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -827,7 +827,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -904,7 +904,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -931,7 +931,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -970,7 +970,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1001,7 +1001,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1032,7 +1032,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1055,7 +1055,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1117,7 +1117,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="69"
                     height="65"
@@ -1140,7 +1140,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1165,7 +1165,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1184,7 +1184,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1203,7 +1203,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1222,7 +1222,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1266,7 +1266,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1333,7 +1333,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1370,7 +1370,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <img src="/skill-icons_selenium.svg" alt="" />
 
                   <h3 className="md:text-[16px] text-[14px] text-[#2B2B2B] my-2 font-[600] text-center">
@@ -1378,7 +1378,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1397,7 +1397,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1416,7 +1416,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1441,8 +1441,8 @@ export default function AboutTabs() {
         <TabsContent value="Backend">
           <Card>
             <CardContent>
-              <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4">
-                <div className="col-span-full md:col-span-2 about-card h-full">
+              <div className="grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] justify-items-center items-center gap-4 mx-auto">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1476,7 +1476,7 @@ export default function AboutTabs() {
                     Java
                   </h3>
                 </div>
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1495,7 +1495,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1514,7 +1514,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1581,7 +1581,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1600,7 +1600,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1619,7 +1619,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1696,7 +1696,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1721,7 +1721,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1789,8 +1789,8 @@ export default function AboutTabs() {
         <TabsContent value="Frontend">
           <Card>
             <CardContent>
-              <div className="grid md:grid-cols-12 grid-cols-2 items-center justify-center gap-4">
-                <div className="col-span-full md:col-span-2 about-card h-full">
+              <div className="grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] justify-items-center items-center gap-4 mx-auto">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1827,7 +1827,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1858,7 +1858,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1895,8 +1895,8 @@ export default function AboutTabs() {
         <TabsContent value="Database">
           <Card>
             <CardContent>
-              <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4">
-                <div className="col-span-full md:col-span-2 about-card h-full">
+              <div className="grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] justify-items-center items-center gap-4 mx-auto">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1935,7 +1935,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -1958,7 +1958,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -2020,7 +2020,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -2045,7 +2045,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -2082,8 +2082,8 @@ export default function AboutTabs() {
         <TabsContent value="Cloud">
           <Card>
             <CardContent>
-              <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4">
-                <div className="col-span-full md:col-span-2 about-card h-full">
+              <div className="grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] justify-items-center items-center gap-4 mx-auto">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="64"
@@ -2109,7 +2109,7 @@ export default function AboutTabs() {
                     Amazon web service
                   </h3>
                 </div>
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -2127,7 +2127,7 @@ export default function AboutTabs() {
                     Azure
                   </h3>
                 </div>
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -2157,7 +2157,7 @@ export default function AboutTabs() {
                     Google Cloud
                   </h3>
                 </div>
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -2202,8 +2202,8 @@ export default function AboutTabs() {
         <TabsContent value="Testing">
           <Card>
             <CardContent>
-              <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4">
-                <div className="col-span-full md:col-span-2 about-card h-full">
+              <div className="grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] justify-items-center items-center gap-4 mx-auto">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -2352,7 +2352,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <img src="/skill-icons_selenium.svg" alt="" />
 
                   <h3 className="md:text-[16px] text-[14px] text-[#2B2B2B] my-2 font-[600] text-center">
@@ -2360,7 +2360,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -2392,8 +2392,8 @@ export default function AboutTabs() {
         <TabsContent value="Devops">
           <Card>
             <CardContent>
-              <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4">
-                <div className="col-span-full md:col-span-2 about-card h-full">
+              <div className="grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] justify-items-center items-center gap-4 mx-auto">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -2476,7 +2476,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -2587,7 +2587,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -2620,8 +2620,8 @@ export default function AboutTabs() {
         <TabsContent value="Design">
           <Card>
             <CardContent>
-              <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4">
-                <div className="col-span-full md:col-span-2 about-card h-full">
+              <div className="grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] justify-items-center items-center gap-4 mx-auto">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -2656,7 +2656,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -2675,7 +2675,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -2694,7 +2694,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -2738,7 +2738,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -2790,8 +2790,8 @@ export default function AboutTabs() {
         <TabsContent value="Mobile App">
           <Card>
             <CardContent>
-              <div className="grid md:grid-cols-12 grid-cols-2 items-center gap-4">
-                <div className="col-span-full md:col-span-2 about-card h-full">
+              <div className="grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] justify-items-center items-center gap-4 mx-auto">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -2826,7 +2826,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
@@ -2903,7 +2903,7 @@ export default function AboutTabs() {
                   </h3>
                 </div>
 
-                <div className="col-span-full md:col-span-2 about-card h-full">
+                <div className="col-span-full md:col-span-2 about-card h-full w-full">
                   <svg
                     width="65"
                     height="65"
