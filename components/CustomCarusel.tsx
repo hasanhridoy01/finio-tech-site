@@ -24,7 +24,7 @@ const autoScrollOptions = {
   startDelay: 1000, // Delay before auto scroll starts (ms)
   direction: "forward", // "forward" or "backward"
   stopOnInteraction: false, // Continue scrolling after user interaction
-  stopOnMouseEnter: true, // Pause on hover
+  stopOnMouseEnter: false, // Pause on hover
   stopOnFocusIn: false, // Don't stop when focused
 };
 
@@ -49,12 +49,8 @@ export default function CustomCarusel() {
       align: "start",
       dragFree: true, // Enable drag free for smoother auto scroll
     },
-    [
-      AutoScroll({
-        ...autoScrollOptions,
-        direction: "backward", // Opposite direction for visual effect
-      }),
-    ]
+    // @ts-ignore
+    [AutoScroll(autoScrollOptions)]
   );
 
   const [selectedIndex, setSelectedIndex] = useState(0);

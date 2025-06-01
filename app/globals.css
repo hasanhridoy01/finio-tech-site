@@ -437,13 +437,15 @@ h5 {
 .footer-top-section {
   width: 100%;
   border-radius: 50px;
-  border-width: 1px;
+  background: #dbf9f2;
+  background: -webkit-linear-gradient(89.28deg, #dbf9f2 -1.22%, #d2fdf9 59.57%);
   background: linear-gradient(89.28deg, #dbf9f2 -1.22%, #d2fdf9 59.57%);
-  border: 1px solid var(--Surface-Forground-Background, #ffffff);
-  box-shadow: -10px -10px 20px 0px #67c5a6 inset,
-    10px 15px 20px 0px #a4ccbe inset;
+  border: 1px solid #ffffff;
+  box-shadow: inset -10px -10px 20px rgba(103, 197, 166, 1),
+    inset 10px 15px 20px rgba(164, 204, 190, 1);
   overflow: hidden;
 }
+
 .footer-top-image {
   width: 100%;
   height: 569px;
