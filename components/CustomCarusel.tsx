@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import Autoplay from "embla-carousel-autoplay";
+import AutoScroll from "embla-carousel-auto-scroll";
 import { Button } from "./ui/button";
 
 // Sample data for the carousels with images
@@ -19,14 +19,17 @@ const carouselItems = [
   { id: 11, img: "/three.jpg" },
 ];
 
-const autoplayOptions = {
-  delay: 2500,
-  stopOnInteraction: false,
-  rootNode: (emblaRoot: any) => emblaRoot.parentElement,
+const autoScrollOptions = {
+  speed: 1, // Speed of auto scroll (1 = slow, 4 = fast)
+  startDelay: 1000, // Delay before auto scroll starts (ms)
+  direction: "forward", // "forward" or "backward"
+  stopOnInteraction: false, // Continue scrolling after user interaction
+  stopOnMouseEnter: false, // Pause on hover
+  stopOnFocusIn: false, // Don't stop when focused
 };
 
 export default function CustomCarusel() {
-  // Initialize embla carousel instances with the autoplay plugin
+  // Initialize embla carousel instances with the auto scroll plugin
   const [topEmblaRef, topEmblaApi] = useEmblaCarousel(
     {
       loop: true,
@@ -34,7 +37,8 @@ export default function CustomCarusel() {
       containScroll: "keepSnaps",
       align: "start",
     },
-    [Autoplay(autoplayOptions)]
+    // @ts-ignore
+    [AutoScroll(autoScrollOptions)]
   );
 
   const [bottomEmblaRef, bottomEmblaApi] = useEmblaCarousel(
@@ -43,7 +47,8 @@ export default function CustomCarusel() {
       slidesToScroll: 1,
       align: "start", // Important for showing half item
     },
-    [Autoplay(autoplayOptions)]
+    // @ts-ignore
+    [AutoScroll(autoScrollOptions)]
   );
 
   const [selectedIndex, setSelectedIndex] = useState(0);
