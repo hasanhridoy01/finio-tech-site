@@ -674,3 +674,15 @@ h5 {
   position: relative;
   z-index: 0;
 }
+
+.client {
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: -1px -1px 13px 0px rgba(255, 255, 255, 1),
+    1px 1px 5px 0px rgba(191, 228, 224, 1),
+    1px 1px 1px 0px rgba(255, 255, 255, 1) inset,
+    -1px -1px 1px 0px rgba(255, 255, 255, 0.7) inset;
+  background: linear-gradient(312.48deg, #f4fefc 14.21%, #e4f8f4 85.33%),
+    linear-gradient(0deg, #e4fffb, #e4fffb),
+    linear-gradient(312.48deg, #f4fefc 14.21%, #e4f8f4 85.33%);
+}
