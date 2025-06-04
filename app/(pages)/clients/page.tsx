@@ -4,7 +4,7 @@ const page = () => {
   return (
     <div>
       <div className="container mx-auto md:pt-44 pt-28 md:px-0 px-5 h-auto">
-        <div className="my-10">
+        <div className="mt-10 mb-18">
           <h1 className="section-title md:leading-[55px] leading-8 md:text-[48px] text-[24px] mb-2 text-center md:text-start text-white">
             Clients
           </h1>
@@ -13,7 +13,7 @@ const page = () => {
           </h3>
         </div>
         <div className="my-10">
-          <h2 className=" text-2xl mb-2 text-center md:text-start font-bold text-[#555]">
+          <h2 className=" text-2xl mb- text-center md:text-start font-bold text-[#555]">
             Trusted by Leading Companies.
           </h2>
           <h3 className="md:text-[18px] text-[14px] font-medium text-[#555] text-center md:text-start md:w-[850px] w-full">
@@ -21,25 +21,38 @@ const page = () => {
             innovators to deliver the best software & solutions. Trusted by
             forward-thinking businesses to power their financial transformation.
           </h3>
-          <div className="flex flex-wrap gap-4">
-            <div className="w-full md:w-1/2 lg:w-1/4">
-              <div className="client">
-                <div className="px-6 pt-12 mb-8 flex justify-center ">
-                  <img src="/client1.png" alt="client" className="" />
-                </div>
-                <div className="bg-white p-3 text-[#138B7D] text-xl font-normal text-center">
-                  Grameenphone
-                </div>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-12">
+            <div className="client">
+              <div className="px-6 h-[150px] flex justify-center items-center">
+                <img src="/client1.png" alt="client" className="" />
+              </div>
+              <div className="bg-white p-3 text-[#138B7D] text-xl font-normal text-center">
+                Grameenphone
               </div>
             </div>
-            <div className="w-full md:w-1/2 lg:w-1/4 p-2">
-              <div className="bg-gray-200 p-4">Content 2</div>
+            <div className="client">
+              <div className="px-6 h-[150px] flex justify-center items-center">
+                <img src="/robi.png" alt="client" className="" />
+              </div>
+              <div className="bg-white p-3 text-[#138B7D] text-xl font-normal text-center">
+                Robi
+              </div>
             </div>
-            <div className="w-full md:w-1/2 lg:w-1/4 p-2">
-              <div className="bg-gray-200 p-4">Content 3</div>
+            <div className="client">
+              <div className="px-6 h-[150px] flex justify-center items-center">
+                <img src="/transsion.png" alt="client" className="" />
+              </div>
+              <div className="bg-white p-3 text-[#138B7D] text-xl font-normal text-center">
+                Transsion
+              </div>
             </div>
-            <div className="w-full md:w-1/2 lg:w-1/4 p-2">
-              <div className="bg-gray-200 p-4">Content 4</div>
+            <div className="client">
+              <div className="px-6 h-[150px] flex justify-center items-center">
+                <img src="/bili.png" alt="client" className="" />
+              </div>
+              <div className="bg-white p-3 text-[#138B7D] text-xl font-normal text-center">
+                Bili
+              </div>
             </div>
           </div>
         </div>

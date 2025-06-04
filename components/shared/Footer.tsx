@@ -1,5 +1,6 @@
 import React from "react";
 import BookMeeting from "../home-components/BookMeeting";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -152,18 +153,27 @@ export default function Footer() {
               About Us
             </h3>
 
-            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-2.5">
+            <Link href="#" className=" block md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-2.5">
               Company
-            </h5>
-            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-2.5">
+            </Link>
+            <Link
+              href="/services"
+              className="block md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-2.5"
+            >
               Services
-            </h5>
-            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-2.5">
+            </Link>
+            <Link
+              href="/products"
+              className="block md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-2.5"
+            >
               Products
-            </h5>
-            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-2.5">
+            </Link>
+            <Link
+              href="/contact"
+              className="block md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-2.5"
+            >
               Contact
-            </h5>
+            </Link>
           </div>
           <div className="col-span-full md:col-span-3">
             <h3 className="md:text-[22px] text-[16px] font-[700] font-roboto mb-10">
@@ -188,9 +198,9 @@ export default function Footer() {
               Get in Touch
             </h3>
 
-            <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-2.5">
+            <Link href="/contact" className="block md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-2.5">
               Contact
-            </h5>
+            </Link>
             <h5 className="md:text-[20px] text-[14px] font-[400] hover:text-primary cursor-pointer font-roboto mb-2.5">
               FAQs
             </h5>

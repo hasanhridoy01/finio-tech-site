@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 const Companies = () => {
   const com = [
@@ -46,8 +47,8 @@ const Companies = () => {
           </h3>
 
          <div className="flex justify-center md:justify-start">
-           <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button mt-6">
-            Lets Tak
+           <Link href="/clients" className="md:w-[185px] w-[186px] md:h-[55px] h-[40px] primary-button mt-6">
+            Find More Details
             <svg
               width="25"
               height="25"
@@ -80,7 +81,7 @@ const Companies = () => {
                 strokeLinejoin="round"
               />
             </svg>
-          </Button>
+          </Link>
          </div>
         </div>
       </div>

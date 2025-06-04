@@ -5,6 +5,7 @@ import ProudPartner from "@/components/home-components/ProudPartner";
 import Hero from "@/components/shared/Hero";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -72,7 +73,7 @@ export default function Home() {
                   width={175}
                   height={48}
                 />
-                <Button className="md:w-[201px] w-[175px] md:h-[55px] h-[40px] secondary-button">
+                <Link href="/services" className="md:w-[201px] w-[175px] md:h-[55px] h-[40px] secondary-button">
                   Discover more{" "}
                   <svg
                     width="25"
@@ -106,7 +107,7 @@ export default function Home() {
                       strokeLinejoin="round"
                     />
                   </svg>
-                </Button>
+                </Link>
               </div>
             </div>
           </div>

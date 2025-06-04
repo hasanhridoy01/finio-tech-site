@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 const ProudPartner = () => {
   return (
@@ -24,8 +25,8 @@ const ProudPartner = () => {
 
         {/* Buttons */}
         <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-5">
-          <Button className="md:w-[175px] w-[140px] md:h-[55px] h-[40px] primary-button">
-            Become a Partner
+          <Link href='/partners' className="md:w-[185px] w-[140px] md:h-[55px] h-[40px] primary-button">
+            View All Partner
             <svg
               width="25"
               height="25"
@@ -58,7 +59,7 @@ const ProudPartner = () => {
                 strokeLinejoin="round"
               />
             </svg>
-          </Button>
+          </Link>
         </div>
       </div>
     </section>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../ui/button";
 import BookMeeting from "../home-components/BookMeeting";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -20,7 +21,10 @@ export default function Hero() {
         </h5>
         <div className="flex items-center gap-4 md:flex-row flex-col">
           <BookMeeting />
-          <Button className="md:w-[201px] w-[175px] md:h-[55px] h-[40px] secondary-button">
+          <Link
+            href="/products"
+            className="md:w-[201px] w-[175px] md:h-[55px] h-[40px] secondary-button"
+          >
             Products & Services
             <svg
               width="24"
@@ -54,7 +58,7 @@ export default function Hero() {
                 strokeLinejoin="round"
               />
             </svg>
-          </Button>
+          </Link>
           <h5 className="text-[12px] md:font-[700] font-semibold">
             2.5M Happy Users
           </h5>
@@ -62,7 +66,7 @@ export default function Hero() {
       </div>
       <div className="relative w-full h-[500px] hidden md:flex justify-end">
         <div className="absolute top-[-80] right-[375px] transform -translate-x-1/3 w-[267px] h-[267px] z-1 doller-image">
-        {/* text  */}
+          {/* text  */}
           <img src="/doller.png" alt="Dollar Coin" className="" />
         </div>
 
